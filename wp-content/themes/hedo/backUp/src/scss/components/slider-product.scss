@@ -1,0 +1,118 @@
+.slider-product {
+  display: block;
+  position: relative;
+  background-color: $c-white;
+  height: rem(836);
+
+
+  &__image {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    height: 100%;
+    @include dflex(center, wrap, center);
+    overflow: hidden;
+
+    img {
+      display: block;
+      max-width: 60%;
+      transition: 0.5s;
+    }
+
+    &_vertical {
+      align-items: flex-start;
+    }
+  }
+
+
+
+  &__like,
+  .yith-wcwl-add-to-wishlist {
+    position: absolute;
+    top: rem(44);
+    right: rem(44);
+    margin: 0;
+    transition: 0.5s;
+    z-index: 9;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+
+    .yith-wcwl-icon {
+      width: rem(22);
+      height: rem(18);
+      margin: 0 !important;
+    }
+  }
+
+  &__tag {
+    position: absolute;
+    top: rem(45);
+    left: rem(47);
+
+    &-item {
+      margin-bottom: rem(10);
+    }
+  }
+
+  &__bottom {
+    position: absolute;
+    bottom: rem(44);
+    left: rem(46);
+
+    &_width {
+      width: calc(100% - 76px);
+    }
+  }
+
+  &__name {
+    display: block;
+    text-decoration: none;
+    color: $c-black !important;
+  }
+
+  &__price {
+    display: block;
+    text-decoration: none;
+    color: $c-black;
+    font-family: "Matter SQ";
+    font-size: rem(20) !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include dflex(flex-end, wrap, flex-start);
+    text-decoration: none;
+    color: $c-gold !important;
+
+    del,
+    dbi {
+      color: $c-black !important;
+      text-decoration: line-through;
+      margin-right: rem(10);
+      font-size: rem(20) !important;
+    }
+
+    ins {
+      background: none;
+      font-weight: bold;
+      color: $c-gold-black !important;
+      text-decoration: none;
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    .product__image {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.archive .slider-product {
+  opacity: 0;
+  animation-fill-mode: forwards;
+}

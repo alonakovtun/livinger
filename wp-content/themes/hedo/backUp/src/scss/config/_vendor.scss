@@ -1,0 +1,57 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import '~wow.js/css/libs/animate.css';
+
+.entry-content {
+  margin-top: 0 !important;
+}
+
+
+.woocommerce-checkout {
+  background: #faf9f9;
+}
+
+@font-face {
+  font-family: 'Editorial New - Ultralight';
+  src: url('/wp-content/themes/hedo/assets/fonts/EditorialNew-Ultralight.eot');
+  src: local('/wp-content/themes/hedo/assets/fonts/SFUIDisplay Heavy'),
+    local('/wp-content/themes/hedo/assets/fonts/SFUIDisplay-Medium'),
+    url('/wp-content/themes/hedo/assets/fonts/EditorialNew-Ultralight.eot?#iefix')
+      format('embedded-opentype'),
+    url('/wp-content/themes/hedo/assets/fonts/EditorialNew-Ultralight.woff2')
+      format('woff2'),
+    url('/wp-content/themes/hedo/assets/fonts/EditorialNew-Ultralight.woff')
+      format('woff'),
+    url('/wp-content/themes/hedo/assets/fonts/EditorialNew-Ultralight.ttf')
+      format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Matter SQ';
+  src: url('/wp-content/themes/hedo/assets/fonts/MatterSQ-Light.eot');
+  src: url('/wp-content/themes/hedo/assets/fonts/MatterSQ-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('/wp-content/themes/hedo/assets/fonts/MatterSQ-Light.woff2')
+      format('woff2'),
+    url('/wp-content/themes/hedo/assets/fonts/MatterSQ-Light.woff')
+      format('woff'),
+    url('/wp-content/themes/hedo/assets/fonts/MatterSQ-Light.ttf')
+      format('truetype'),
+    url('/wp-content/themes/hedo/assets/fonts/MatterSQ-Light.svg#MatterSQ-Light')
+      format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Matter SQ Medium';
+  src: url('/wp-content/themes/hedo/assets/fonts/Matter-Medium.woff2')
+      format('woff2'),
+    url('/wp-content/themes/hedo/assets/fonts/Matter-Medium.woff')
+      format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

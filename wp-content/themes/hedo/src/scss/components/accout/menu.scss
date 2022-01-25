@@ -1,0 +1,83 @@
+.account {
+  &__nav {
+    height: rem(144);
+    border-bottom: 1px solid $c-gold;
+    @include dflex(center, wrap, center);
+
+    ul {
+      position: relative;
+      @include container(rem(1773));
+      width: 100%;
+      padding: 0 rem(20);
+      @include dflex(center, wrap, center);
+      margin-left: 0;
+      list-style: none;
+      margin-right: 0;
+
+    }
+    li {
+      margin: 0 rem(20);
+
+      &:last-child {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+      }
+    }
+
+    a {
+      color: $c-black;
+      font-size: rem(16);
+      font-weight: 300;
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &_info {
+    li {
+      margin: 0 rem(20);
+
+      &:last-child {
+        @include full-reset();
+      }
+    }
+  }
+}
+
+
+@include mmax ($pad){
+  .account {
+    &__nav {
+      height: auto;
+
+      ul {
+        display: block;
+        padding: rem(41) rem(20);
+      }
+
+      li {
+        width: 100%;
+        display: block;
+        padding: 0;
+        flex-basis: 100%;
+        margin: 0 0 rem(19);
+
+        a {
+          font-size: rem(14);
+        }
+
+        &:last-child {
+          @include full-reset();
+          margin-top: rem(45);
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

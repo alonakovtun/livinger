@@ -1,0 +1,32 @@
+.remove_from_wishlist {
+  position: absolute;
+  top: 2.8125rem;
+  right: 2.9375rem;
+  z-index: 99;
+  display: block;
+  width: rem(22);
+
+  img {
+    width: 22px;
+  }
+}
+
+.wishlist-title-container {
+  display: none;
+
+
+}
+
+.wishlist_table {
+  .slider-product {
+    min-width: 32.23333%;
+    margin-bottom: 1.6875rem;
+    margin-right: 1.6875rem;
+  }
+}
+
+.wishlist-items-wrapper {
+  .add_to_cart {
+    display: none !important;
+  }
+}

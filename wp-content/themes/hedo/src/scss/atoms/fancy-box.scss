@@ -1,0 +1,56 @@
+.ancybox__button--slideshow,
+.fancybox__button--fullscreen,
+.fancybox__button--thumbs,
+.fancybox__button--slideshow,
+.fancybox__button--zoom,
+.fancybox__thumbs,
+.fancybox-button--thumbs,
+.fancybox-button--play,
+.fancybox-button--zoom {
+  display: none !important;
+}
+
+.carousel__button {
+  @include reset-button();
+}
+
+.fancybox-bg,
+.fancybox__toolbar {
+  background: #f1f1f1 !important;
+}
+
+.fancybox-button {
+  background: none !important;
+}
+
+.fancybox-button, .fancybox-button:link, .fancybox-button:visited {
+  color: #000 !important;
+}
+
+.fancybox__toolbar {
+  color: #000;
+  text-shadow: none !important;
+
+  &__items {
+    color: #000;
+  }
+}
+
+.fancybox__button--close,
+.is-next,
+.is-prev {
+  box-shadow: none !important;
+  text-shadow: none !important;
+
+  svg {
+    box-shadow: none !important;
+    text-shadow: none !important;
+    stroke-width: 1px;
+
+    path {
+      text-shadow: none !important;
+      box-shadow: none !important;
+      stroke: #000 !important;
+    }
+  }
+}

@@ -1,0 +1,296 @@
+2022-01-11T04:54:15+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T04:54:23+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T04:55:01+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:08:44+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:10:45+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:10:49+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:35+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:36+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:36+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:38+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:41+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:43+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:45+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:48+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:50+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:52+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:52+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:53+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:54+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:55+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:11:58+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:12:02+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:12:14+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:12:16+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:12:28+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:26:43+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:26:44+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:30:32+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:33:08+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:33:09+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:33:11+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T05:38:41+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T11:35:55+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T11:35:59+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T17:46:37+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T20:44:25+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2022-01-11T21:15:41+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+

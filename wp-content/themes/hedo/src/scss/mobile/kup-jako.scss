@@ -1,0 +1,45 @@
+@include mmax ($pad){
+  .log-in {
+    padding: 0 rem(10);
+
+    &__title {
+      height: rem(72);
+      font-size: rem(14);
+    }
+
+    &__input-data {
+      padding: rem(24) rem(18);
+      height: auto;
+    }
+
+    .button__register {
+      height: rem(72);
+      font-size: rem(14) !important;
+    }
+  }
+
+  .textarea__input_login {
+    font-size: rem(14) !important;
+    line-height: rem(14) !important;
+    padding: 0 rem(10) rem(19) !important;
+  }
+
+  .log-in__left, .log-in__right {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: rem(68);
+    flex: auto;
+    flex-basis: 100%;
+  }
+
+  .log-in__right-mess {
+    width: 100%;
+    font-size: rem(14) !important;
+  }
+
+  .woocommerce-account {
+    .log-in {
+      padding-top: rem(72) !important;
+    }
+  }
+}

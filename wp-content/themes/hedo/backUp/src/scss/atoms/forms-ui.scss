@@ -1,0 +1,49 @@
+.textarea {
+  &__input {
+    @include  reset-button();
+    @include  dflex(center, wrap, flex-start);
+    width: 100%;
+    height: rem(90);
+    padding: 0 rem(20);
+    border-bottom: 2px solid $c-gold;
+    color: #282828;
+    font-size: rem(16);
+    font-weight: 300;
+    line-height: rem(20);
+    letter-spacing: rem(0.56);
+
+    &_login {
+      height: auto;
+      padding: 0 0 rem(25);
+      margin-bottom: rem(33);
+      border-color: #c3a64d;
+
+      color: #979797;
+      font-size: rem(20);
+      font-weight: 300;
+      text-align: left;
+      font-style: normal;
+      letter-spacing: rem(0.64);
+    }
+  }
+
+  &__search {
+    @include  reset-button();
+    width: rem(415);
+    padding: 0 rem(20) rem(10);
+    border-bottom: 1px solid $c-green !important;
+    color: $c-green !important;
+    font-size: rem(16);
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &__hidden {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    visibility: hidden;
+  }
+
+
+}

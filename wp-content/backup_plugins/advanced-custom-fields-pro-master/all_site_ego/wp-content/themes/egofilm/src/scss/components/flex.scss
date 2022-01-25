@@ -1,0 +1,21 @@
+.flex {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.jc-space {
+  justify-content: space-between;
+}
+
+.jc-start {
+  justify-content: flex-start;
+}
+
+.flex-50 {
+  flex-basis: 50%;
+  width: 100%;
+}

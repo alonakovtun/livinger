@@ -1,0 +1,39 @@
+// Fonts
+$f-main: 'Matter SQ', 'Editorial New - Ultralight';
+
+// Font sizes
+$fz-root: 16;
+
+// Colors
+$c-white: #fff;
+$c-black: #000;
+$c-green: #11432e;
+$c-grey: #f6f5f5;
+$c-gold: #d1b86c;
+$c-gold-gray: #b09339;
+$c-gold-black: #8a732c;
+$c-black-dark: #231f20;
+$c-hover: $c-gold-black;
+$c-err: #fd0101;
+$c-back: #faf9f9;
+$c-default: #282828;
+$c-black-mini: #080000;
+
+$wrap: calc(1250px + 30px);
+$wrap-header: calc(1649px + 30px);
+
+$wrap-content: calc(1295px + 30px);
+
+$xs: 420;
+$phone: 576;
+$pad: 768;
+$laptop: 850;
+$xl: 1024;
+
+// Time
+$time-fast: 300ms;
+
+// Timing functions
+$timing-functions: (
+  'easeInOutCubic': cubic-bezier(0.645, 0.045, 0.355, 1),
+);

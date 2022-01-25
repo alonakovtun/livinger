@@ -1,0 +1,70 @@
+.cookies {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: $c-green;
+  z-index: 99999999;
+  transition: all 0.3s ease-in-out;
+
+
+  &__container {
+    @include container(rem(1753));
+    @include dflex(center, wrap, center);
+    padding: rem(35) rem(20);
+  }
+
+  &__close {
+    position: absolute;
+    right: rem(20);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: rem(15);
+    height: rem(15);
+
+    i {
+      display: block;
+      @include full-abs();
+      margin: auto;
+      width: 1px;
+      background: $c-white;
+      transform: rotate(45deg);
+
+      &:nth-child(2) {
+        transform: rotate(-45deg);
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.cookies._hide {
+  opacity: 0;
+  bottom: -100%;
+  visibility: hidden;
+}
+
+@include mmax ($pad){
+  .cookies {
+
+
+    &__container {
+      padding: rem(30) rem(10);
+
+      p,
+      a {
+        font-size: rem(14);
+        line-height: rem(16);
+      }
+    }
+
+    &__close {
+      top: rem(10);
+      right: rem(10);
+      bottom: auto;
+    }
+  }
+}

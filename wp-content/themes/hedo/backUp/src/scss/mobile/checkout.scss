@@ -1,0 +1,140 @@
+@include mmax ($pad){
+  .checkout {
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0 rem(10);
+
+    .column-left {
+      width: 100%;
+      margin-left: 0;
+      order: 2;
+    }
+
+    .column-right {
+      width: 100%;
+      margin-left: 0;
+      order: 1;
+      min-width: 100%;
+      margin-bottom: rem(35);
+    }
+
+
+  }
+
+  .checkout__title {
+    height: rem(70);
+    padding: 0 rem(25);
+
+
+    .txt-20 {
+      font-size: rem(14) !important;
+    }
+  }
+
+  .cart-item__head {
+    .txt-18 {
+      font-size: rem(14) !important;
+      line-height: rem(16) !important;
+
+      bdi {
+        font-size: rem(14) !important;
+        line-height: rem(16) !important;
+      }
+    }
+  }
+
+  .cart-item__image {
+    width: rem(120);
+    height: rem(165);
+  }
+
+  .cart-item__info {
+    padding: rem(17);
+  }
+
+  .cart-item__title {
+    font-size: rem(14);
+    line-height: rem(16);
+    width: auto;
+    display: block;
+    width: 80%;
+  }
+
+  .product__sku {
+    font-size: rem(10);
+    line-height: rem(12);
+  }
+
+  .woocommerce-checkout .woocommerce a.remove {
+    position: absolute !important;
+    top: rem(17) !important;
+    right: rem(17) !important;
+  }
+
+  .qib-container:not(#qib_id):not(#qib_id) {
+    justify-content: space-between !important;
+  }
+
+  .qib-container::before {
+    font-size: rem(14) !important;
+    flex: 1;
+  }
+
+  .checkout__header-title {
+    padding: rem(30) 0;
+  }
+
+  .checkout__txt-title {
+    font-size: rem(14);
+  }
+
+  .button__back {
+    font-size: rem(9);
+  }
+
+
+  .checkout__left .woocommerce-billing-fields__field-wrapper {
+    padding: rem(25) 0;
+  }
+
+  .textarea {
+    padding: 0 rem(20) !important;
+    margin-bottom: rem(30) !important;
+
+    input {
+      font-size: rem(14);
+    }
+  }
+
+  .checkout__left .select2-container--default .select2-selection__rendered,
+  .select2-search__field, .select2-results__option {
+    font-size: rem(14) !important;
+  }
+
+  .select2-search__field, .select2-results__option {
+    height: rem(72);
+  }
+
+  .checkout__invoice {
+    height: rem(72) !important;
+    padding: 0 rem(20) !important;
+    font-size: rem(14) !important;
+
+    .txt-20 {
+      font-size: rem(14) !important;
+    }
+
+    .chagle-plus {
+      font-size: rem(14) !important;
+    }
+  }
+
+  .checkout .review-oreder__total-shipping .cart-subtotal p,
+  .checkout .order-total p {
+    font-size: rem(14) !important;
+  }
+
+  .payment-method__image {
+    width: rem(100);
+  }
+}

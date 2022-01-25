@@ -1,0 +1,30 @@
+.news {
+  position: relative;
+
+  &_block {
+    width: 48.3333%;
+  }
+
+  .bestsellery__title {
+    max-width: rem(450);
+    margin-bottom: rem(28);
+    line-height: rem(60);
+  }
+
+  &__left,
+  &__right {
+    margin: 0 !important;
+  }
+
+  &_bottom {
+    bottom: rem(31);
+  }
+
+  &_block.ml-15 {
+    margin-left: rem(15);
+  }
+
+  &_block.mr-15 {
+    margin-right: rem(15);
+  }
+}

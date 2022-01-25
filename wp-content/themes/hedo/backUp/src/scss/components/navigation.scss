@@ -1,0 +1,40 @@
+.swiper-button-next,
+.swiper-button-prev {
+  @include dflex(center, wrap, center);
+  width: rem(45) !important;
+  height: rem(45) !important;
+  border-radius: 50%;
+  background: $c-white;
+  transition: all 0.5s;
+
+  &::after {
+    font-size: rem(18) !important;
+    color: $c-green;
+    transform: translateX(rem(1));
+  }
+
+  &:hover {
+    background: darken($color: $c-white, $amount: 15%);
+  }
+}
+
+.swiper-button-prev {
+  &::after {
+    transform: translateX(rem(-1));
+  }
+}
+
+.swiper-pagination {
+  &-bullet {
+    @include reset-button();
+    width: rem(24) !important;
+    height: rem(24) !important;
+    background-color: $c-green !important;
+    opacity: 1 !important;
+    margin: 0 !important;
+
+    &-active {
+      background-color: $c-gold !important;
+    }
+  }
+}

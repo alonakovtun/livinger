@@ -1,0 +1,45 @@
+.accordion {
+  position: relative;
+
+  &__element {
+    padding: rem(24) 0;
+    margin-bottom: rem(24);
+    border-bottom: 1px solid $c-gold-gray;
+  }
+
+  &__head {
+    padding-bottom: rem(24);
+    cursor: pointer;
+  }
+
+  &__body {
+    display: none;
+
+    p {
+      color: $c-gold-gray;
+      font-weight: bold;
+    }
+  }
+
+  &__body._active {
+    display: block;
+  }
+}
+
+@include mmax ($pad){
+  .accordion {
+    &__head {
+      p {
+        font-size: rem(16);
+        line-height: rem(18);
+      }
+    }
+
+    &__body {
+      p {
+        font-size: rem(16);
+        line-height: rem(18);
+      }
+    }
+  }
+}

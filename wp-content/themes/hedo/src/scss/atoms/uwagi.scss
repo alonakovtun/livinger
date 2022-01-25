@@ -1,0 +1,17 @@
+.uwagi {
+  margin-top: 1.6875rem !important;
+  border-bottom: 2px solid #c3a64d !important;
+
+
+  &__body {
+    padding-top: rem(30);
+
+    .textarea {
+      height: auto !important;
+    }
+
+    .textarea textarea {
+      border-bottom: 0 !important;
+    }
+  }
+}

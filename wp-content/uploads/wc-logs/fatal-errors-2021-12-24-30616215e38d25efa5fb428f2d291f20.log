@@ -1,0 +1,69 @@
+2021-12-24T06:22:11+00:00 CRITICAL Uncaught TypeError: Return value of WC_Gateway_Pay_By_Paynow_PL::get_only_payment_methods_for_type() must be of the type array, null returned in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/abstract/class-wc-gateway-pay-by-paynow-pl.php:536
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/abstract/class-wc-gateway-pay-by-paynow-pl.php(328): WC_Gateway_Pay_By_Paynow_PL->get_only_payment_methods_for_type('BLIK')
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/gateways/class-wc-payment-gateway-pay-by-paynow-pl-blik.php(62): WC_Gateway_Pay_By_Paynow_PL->is_payment_method_available('BLIK')
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(151): WC_Payment_Gateway_Pay_By_Paynow_PL_Blik->is_available()
+#3 /home/klient.dhosting.pl/mapa2267 w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/abstract/class-wc-gateway-pay-by-paynow-pl.php w linii 536
+
+2021-12-24T06:22:27+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2021-12-24T06:22:27+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2021-12-24T06:22:33+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2021-12-24T06:22:33+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2021-12-24T06:22:51+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2021-12-24T06:22:51+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:225
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php w linii 225
+
+2021-12-24T12:07:42+00:00 CRITICAL Uncaught TypeError: Return value of WC_Gateway_Pay_By_Paynow_PL::get_only_payment_methods_for_type() must be of the type array, null returned in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/abstract/class-wc-gateway-pay-by-paynow-pl.php:536
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/abstract/class-wc-gateway-pay-by-paynow-pl.php(328): WC_Gateway_Pay_By_Paynow_PL->get_only_payment_methods_for_type('BLIK')
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/gateways/class-wc-payment-gateway-pay-by-paynow-pl-blik.php(62): WC_Gateway_Pay_By_Paynow_PL->is_payment_method_available('BLIK')
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(151): WC_Payment_Gateway_Pay_By_Paynow_PL_Blik->is_available()
+#3 /home/klient.dhosting.pl/mapa2267 w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/abstract/class-wc-gateway-pay-by-paynow-pl.php w linii 536
+
+2021-12-24T23:24:30+00:00 CRITICAL Uncaught TypeError: Return value of WC_Gateway_Pay_By_Paynow_PL::get_only_payment_methods_for_type() must be of the type array, null returned in /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/abstract/class-wc-gateway-pay-by-paynow-pl.php:536
+Stack trace:
+#0 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/abstract/class-wc-gateway-pay-by-paynow-pl.php(328): WC_Gateway_Pay_By_Paynow_PL->get_only_payment_methods_for_type('BLIK')
+#1 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/gateways/class-wc-payment-gateway-pay-by-paynow-pl-blik.php(62): WC_Gateway_Pay_By_Paynow_PL->is_payment_method_available('BLIK')
+#2 /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(151): WC_Payment_Gateway_Pay_By_Paynow_PL_Blik->is_available()
+#3 /home/klient.dhosting.pl/mapa2267 w /home/klient.dhosting.pl/mapa2267/dev.livinger.pl/public_html/wp-content/plugins/pay-by-paynow-pl/includes/abstract/class-wc-gateway-pay-by-paynow-pl.php w linii 536
+

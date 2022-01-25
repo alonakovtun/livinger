@@ -1,0 +1,60 @@
+.contact {
+  &__container {
+    @include container(rem(1753));
+    padding: rem(50) rem(20);
+  }
+
+  .clm-4 {
+    margin: rem(22) rem(22) rem(22) 0;
+    min-width: rem(267);
+
+    h2 {
+      color: #080000;
+      font-family: "Editorial New - Ultralight";
+      font-size: rem(24);
+      font-weight: 400;
+      margin-bottom: rem(58);
+    }
+
+    p {
+      color: #080000;
+      font-size: rem(16);
+      font-weight: 300;
+      text-align: left;
+      margin-bottom: rem(28);
+    }
+
+    a {
+      color: #080000;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+
+@include mmax ($pad){
+  .contact {
+    &__container {
+      padding: rem(40) rem(30);
+    }
+
+    .clm-4 {
+      width: 100%;
+      margin: 0 0 rem(70);
+
+      h2 {
+        font-size: rem(18);
+        margin-bottom: rem(35);
+      }
+
+      p {
+        font-size: rem(14);
+        line-height: rem(16);
+      }
+    }
+  }
+}

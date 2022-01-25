@@ -1,0 +1,60 @@
+html,
+body {
+  font-family: $f-main, sans-serif;
+}
+
+html {
+  font-size: $fz-root + px;
+  letter-spacing: normal;
+  line-height: 1.3;
+}
+body {
+  position: relative;
+  height: 100vh;
+  background: $c-white;
+
+  &::-webkit-scrollbar {
+    width: 2px;
+    background-color: #fff;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #000;
+  }
+
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    background-color: #fff;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 16px;
+  }
+
+  .container,
+  .praca .wpcf7-form p,
+  .load__container {
+    max-width: calc(100% - 176px) !important;
+    margin: 0 auto;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+}

@@ -1,0 +1,61 @@
+.mobile-video {
+  position: relative;
+  margin: rem(91) 0;
+  display: none;
+
+  &__container {
+    padding: 0 0.5625rem;
+  }
+
+  &__play {
+    @include full-abs();
+    @include dflex(center, wrap, center);
+    margin: auto;
+
+    width: rem(37);
+    height: rem(37);
+    border-radius: 50%;
+    background: #efeaea;
+
+    img {
+      width: rem(10);
+    }
+  }
+
+  &__video {
+    position: relative;
+    padding: 0px 0px 60% 0px;
+    width: 100%;
+    overflow: hidden;
+
+    img,
+    video {
+      object-fit: cover;
+      object-position: center center;
+      @include full-abs();
+      margin: auto;
+      width: 100%;
+      height: auto;
+      display: block;
+      max-width: 100%;
+    }
+  }
+}
+
+.blog__slider {
+  .swiper-pagination  {
+    display: none;
+  }
+}
+
+@include mmax ($pad){
+  .mobile-video {
+    display: block;
+  }
+
+  .blog__slider {
+    .swiper-pagination  {
+      display: flex;
+    }
+  }
+}

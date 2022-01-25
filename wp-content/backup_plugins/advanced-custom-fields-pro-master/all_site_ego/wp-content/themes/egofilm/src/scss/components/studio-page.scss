@@ -1,0 +1,224 @@
+.studio {
+  position: relative;
+
+  &__container {
+    @include container($wrap);
+    padding: 0 rem(15);
+    @include dflex(stretch, wrap, space-between);
+  }
+
+  &__description,
+  &__contact {
+    flex-basis: 50%;
+    width: 50%;
+    min-height: calc(100vh - 100px);
+  }
+
+  &__description {
+    padding: rem(40) rem(84) rem(45) 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  &__txt {
+    color: $c-black;
+    font-family: 'Neue Montreal';
+    font-size: rem(28);
+    line-height: rem(34);
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+  }
+
+  &__social {
+    @include dflex(center, wrap, flex-start);
+    margin-left: 0;
+    margin-top: rem(30);
+
+    li {
+      margin-right: rem(25);
+
+      a {
+        position: relative;
+        display: block;
+        @extend .studio__txt;
+        font-size: rem(20);
+        font-weight: 500;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &::before {
+          content: '';
+          position: absolute;
+          right: 0;
+          bottom: rem(-2);
+          width: 0%;
+          height: rem(1.5);
+          background: $c-black;
+          transition: width 0.3s ease-in-out;
+        }
+
+        &:focus,
+        &:active {
+          color: $c-black !important;
+        }
+
+        &:hover {
+          &::before {
+            width: 100%;
+            left: 0;
+            right: auto;
+          }
+        }
+      }
+    }
+
+    .menu-item-31,
+    .menu-item-32 {
+      display: none;
+    }
+
+    &-mobile {
+      display: none;
+    }
+  }
+
+  &__contact {
+    padding: rem(41) 0 rem(45) rem(90);
+
+    &-txt {
+      p {
+        color: $c-black;
+
+        strong {
+          font-weight: 700;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: normal;
+        }
+
+        &:first-child {
+          margin-bottom: rem(48);
+          a {
+            font-weight: 700 !important;
+          }
+        }
+
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          margin-bottom: rem(24);
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        a {
+          position: relative;
+          color: $c-black;
+          font-family: 'Neue Montreal';
+          font-size: rem(14);
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: normal;
+          text-align: left;
+          text-decoration: none;
+
+          &::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: rem(-1);
+            width: 0%;
+            height: 1px;
+            background: $c-black;
+            transition: width 0.3s;
+          }
+
+          &:focus,
+          &:active {
+            color: $c-black !important;
+          }
+
+          &:hover {
+            &::before {
+              width: 100%;
+              left: 0;
+              right: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mmax($xl) {
+  .studio {
+    &__container {
+      padding: 0;
+    }
+
+    &__description,
+    &__contact {
+      width: 100%;
+      flex-basis: 100%;
+      padding-left: rem(18);
+      padding-right: rem(18);
+      border-right: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+@include mmax($pad) {
+  .studio {
+    &__description,
+    &__contact {
+      padding-bottom: rem(27);
+      padding-top: rem(27);
+      min-height: auto;
+    }
+
+    &__txt {
+      font-size: rem(20);
+      font-weight: 400;
+    }
+
+    &__social {
+      margin-top: rem(27);
+      margin-bottom: 0;
+      display: none;
+
+      li {
+        margin-right: rem(15);
+
+        a {
+          font-size: rem(16);
+          font-weight: 500;
+          line-height: rem(26);
+
+          &::before {
+            display: none;
+          }
+        }
+      }
+
+      &-mobile {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding-bottom: rem(27);
+        padding-top: rem(27);
+        padding-left: rem(18);
+        padding-right: rem(18);
+      }
+    }
+  }
+}

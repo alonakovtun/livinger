@@ -1,0 +1,35 @@
+.tawcvs-swatches {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: stretch !important;
+  padding: 0 !important;
+}
+
+.swatch {
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: rem(91) !important;
+  height: rem(118) !important;
+  overflow: hidden !important;
+  opacity: 0.3;
+
+  img {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    object-fit: cover !important;
+    object-position: center center !important;
+    width: 80% !important;
+
+  }
+}
+
+.swatch.selected {
+  opacity: 1;
+  border: 1px solid #c3a64d !important;
+}

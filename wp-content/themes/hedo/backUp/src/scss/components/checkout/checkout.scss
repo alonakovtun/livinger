@@ -1,0 +1,206 @@
+.checkout {
+  position: relative;
+  @include dflex(center, wrap, space-between);
+  @include container(rem(1753));
+  padding: rem(90) rem(20) rem(90);
+
+
+
+  &__right {
+    width: rem(810);
+    margin-left: rem(30);
+  }
+
+  &__title {
+    height: rem(94);
+    border: 2px solid #c3a64d;
+    background-color: #e7e2d8;
+    padding: 0 rem(33);
+
+    &_payment {
+      margin-top: rem(33);
+    }
+  }
+
+  .select2-container--default .select2-selection--single {
+    border: 0;
+    border-bottom: 1px solid #c3a64d;
+    border-radius: 0;
+    height: rem(30) !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #ceb76f;
+    font-family: "Matter SQ";
+    font-size: rem(20);
+    font-weight: 300;
+    line-height: normal !important;
+    text-align: left;
+    letter-spacing: 0.8px;
+    z-index: 99;
+    padding: 0;
+
+    .select2-selection__rendered {
+      padding: 0;
+    }
+  }
+
+  &__invoice {
+    position: relative;
+    height: rem(90);
+    padding: 0 rem(33) !important;
+    margin-bottom: 0 !important;
+    border-bottom: 2px solid #c3a64d;
+    border-left: 2px solid #c3a64d;
+    border-right: 2px solid #c3a64d;
+    background: $c-white;
+    @include dflex(center, wrap, space-between);
+    color: #000;
+    font-family: "Matter SQ";
+    font-size: rem(20);
+    font-weight: 300;
+    text-align: left;
+    text-transform: uppercase;
+    transition: background .3s ease-in-out;
+
+
+    &::before,
+    &::after {
+      display: none !important;
+    }
+
+    .chagle-plus {
+      position: relative;
+      display: block;
+      width: rem(11);
+      height: rem(11);
+
+      &::before,
+      &::after {
+        content: '';
+        @include full-abs();
+        margin: auto;
+        width: 100%;
+        height: 1px;
+        background: $c-black;
+        transition: all .1s;
+      }
+
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+
+    &-bottom {
+      background: $c-white;
+      padding: rem(44) 0;
+      border-bottom: 2px solid #c3a64d;
+      border-left: 2px solid #c3a64d;
+      border-right: 2px solid #c3a64d;
+      display: none;
+    }
+
+    &-bottom.active {
+      display: block;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background: #e7e2d8;
+    }
+  }
+
+  &__invoice.active {
+    .chagle-plus {
+      &::after {
+        width: 0;
+      }
+    }
+  }
+
+
+  &__billing-summary {
+    margin-top: rem(32);
+
+    .checkout-total-wrap {
+      border-left: 2px solid #c3a64d;
+      border-right: 2px solid #c3a64d;
+
+
+      .checkout_coupon .form-row {
+        padding: 0 !important;
+        margin: 0 !important;
+
+        .input-text {
+          width: 100%;
+        }
+      }
+
+      input {
+        @include reset-button();
+        height: rem(90);
+        border-bottom: 2px solid #c3a64d;
+        background-color: $c-white;
+        padding: rem(0) rem(32) !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+        font-family: "Matter SQ";
+        font-size: rem(20);
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: 0.8px;
+      }
+
+      #apply_coupon {
+        position: absolute;
+        top: rem(-999);
+        left: rem(-9999);
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  }
+
+  &__prices {
+    height: rem(90);
+    border-bottom: 2px solid #c3a64d;
+    background-color: $c-white;
+    padding: rem(0) rem(32) !important;
+    margin: 0 !important;
+  }
+
+  &__order {
+    margin-top: rem(33);
+  }
+
+  &__button {
+    @include full-reset();
+    @include reset-button();
+    @include dflex(center, wrap, center);
+    width: 100%;
+    height: rem(91);
+    background-color: $c-green !important;
+    border-radius: 0 !important;
+    color:$c-white;
+    font-family: "Matter SQ";
+    font-size: rem(20);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background .3s;
+
+    &:hover {
+      background: darken($color: $c-green, $amount: 5%) !important;
+    }
+
+    &_margin {
+      margin-bottom: rem(24) !important;
+    }
+  }
+
+  .select2-container {
+    @include reset-button();
+    height: rem(31);
+  }
+
+  .checkout_coupon {
+
+  }
+}

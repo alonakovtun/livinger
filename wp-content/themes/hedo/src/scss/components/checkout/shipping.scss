@@ -1,0 +1,28 @@
+#shipping_company_field {
+  margin-bottom: rem(18) !important;
+}
+
+#shipping_country_field  {
+  height: 2.75rem !important;
+
+  .select2 {
+    width: 100% !important;
+
+    .select2-selection {
+      border-top: 0 !important;
+      border-left: 0 !important;
+      border-right: 0 !important;
+      text-transform: capitalize;
+      height: 2.75rem !important;
+    }
+
+    .select2-selection__arrow {
+      right: 1px !important
+      ;
+    }
+  }
+
+  label[for="shipping_country"] {
+    display: none !important;
+  }
+}

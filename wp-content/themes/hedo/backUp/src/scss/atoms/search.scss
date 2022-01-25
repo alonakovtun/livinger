@@ -1,0 +1,34 @@
+.search-pop {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: rem(90);
+  background-color: $c-grey;
+  z-index: 9999;
+  @include  dflex(center, wrap, center);
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-20%);
+  transition: all 0.3s ease-in-out;
+
+  &__container {
+    @include container(rem(1753));
+    padding: 0 rem(20);
+
+    .woocommerce-product-search {
+      width: 100%;
+    }
+  }
+}
+
+.search_active {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.search-no-results {
+  .filters {
+    display: none;
+  }
+}

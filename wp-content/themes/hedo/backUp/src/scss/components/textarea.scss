@@ -1,0 +1,50 @@
+.textarea {
+  position: relative;
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  margin: 0 0 rem(42) !important;
+  padding: 0  rem(33)!important;
+  height: rem(30) !important;
+  padding: 0 rem(33);
+
+  label {
+    position: absolute;
+    left: rem(33);
+    top: 0;
+    margin: auto;
+    color: #979797;
+    font-family: "Matter SQ";
+    font-size: rem(20);
+    font-weight: 300;
+    line-height: normal !important;
+    text-align: left;
+    letter-spacing: 0.8px;
+    word-wrap: nowrap;
+    transition: all .3s ease-in-out;
+  }
+
+  label.active {
+    font-size: rem(10);
+    top: rem(-13);
+  }
+
+  input {
+    @include reset-button();
+    width: 100%;
+    height: rem(30) !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #ceb76f;
+    font-family: "Matter SQ";
+    font-size: rem(20);
+    font-weight: 300;
+    line-height: normal !important;
+    text-align: left;
+    letter-spacing: 0.8px;
+    z-index: 99;
+  }
+
+  .show-password-input {
+    top: rem(2) !important;
+  }
+}

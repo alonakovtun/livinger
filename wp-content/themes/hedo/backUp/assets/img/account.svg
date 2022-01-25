@@ -1,0 +1,10 @@
+<svg id="SVGDoc" width="22" height="22" xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:avocode="https://avocode.com/" viewBox="0 0 22 22">
+  <g>
+    <g>
+      <image
+        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB0klEQVQ4T6XVSchOcRTH8c+boci4QqawJkmGsJDklTmKhYWNhY2NjVcSCxkWFIoFkpWysZMsbGTMAhuzlSGEEJn1q/+r29t9n/vEqdute8/5/s8593fO7VBv/TETazAcfdCBr7iJs3hdFxqnOluK1biCa/hcnCZiQTlgD972DK4DTsXKAjmFV5WgZD4Hy3EL5/CpCq0DbsQ4HMXzmvT7lixXYDeeNQG78Av7emlHHo/CAezAwybgdvzA3hbAETiC+N5vAm5BytqP3zXQtGlSge3C0ybgBozBcbysAQ7AbCwrh75oAi7E3CKX8zXA0Vhbso8K3jUBR2I9BmFnDXAaNuE0ruNbEzDvo8NkehBPylfP8yGl1JS8DR/aEXZ8JmAd3uNEJYvpyBTdw5l2Ry9Nz4jNx+Cit8xwbB46cbWMZTKMxP5aJJCrX5nPlDQFSxDwMdzBzxKRRbEKi3CpfLjIJgd+j19gw8oiSF8G4g3u4jIeVGBhdvvPwowir6F4XOb6Rhy2IlK4UESaMj6Wqzuznu1K9qkmSsg97Unfbwd4EodLo7+0GLdWr8ZicTZRgIew+R9B1bDJ6ArwIrIs/8cy89nwnQE+KjLobXu3c1CkMz6/iz/yQV9Rh4TZ+wAAAABJRU5ErkJggg=="
+        width="20" height="20" transform="matrix(1,0,0,1,1,1)"></image>
+    </g>
+  </g>
+</svg>

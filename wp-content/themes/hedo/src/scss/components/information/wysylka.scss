@@ -1,0 +1,56 @@
+.wysylka {
+  &__content {
+    p {
+      color: $c-black-mini;
+      font-size: rem(18);
+      line-height: rem(22);
+      font-weight: 300;
+      margin-bottom: rem(30);
+    }
+
+    a {
+      color: $c-black;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    strong {
+      font-weight: bold;
+    }
+
+    h1 {
+      font-family: 'Matter SQ';
+      display: block;
+      font-size: rem(24);
+      text-transform: uppercase;
+      font-weight: 300;
+      color: $c-black;
+      line-height: rem(22);
+      margin-bottom: rem(50);
+    }
+  }
+
+  &__container {
+    @include container(rem(700));
+    margin: 0 auto;
+  }
+}
+
+@include mmax ($pad){
+  .wysylka {
+    &__content {
+      p,
+      a {
+        font-size: rem(14) !important;
+        line-height: rem(16) !important;
+      }
+    }
+
+    h1 {
+      font-size: rem(18);
+      margin: rem(35);
+    }
+  }
+}

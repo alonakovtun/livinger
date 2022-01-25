@@ -1,0 +1,48 @@
+.product {
+  &__qty {
+    width: rem(149);
+    height: rem(90);
+    @include dflex(center, wrap, space-between);
+    background-color: #f3f1f1;
+    border: 1px solid $c-gold;
+    padding: 0 rem(19) 0 rem(21);
+
+    &::before {
+      content: 'ilość';
+      color: #020202;
+      font-size: rem(14);
+      font-weight: 300;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: rem(18);
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    .qib-container {
+      @include reset-button();
+      @include dflex(center, wrap, flex-end);
+
+      .qib-button:not(#qib_id):not(#qib_id),
+      .quantity input.qty:not(#qib_id):not(#qib_id),
+      div.quantity:not(#qib_id):not(#qib_id) {
+        @include reset-button();
+        width: auto;
+        height: auto;
+        display: block;
+        color: #020202;
+        font-family: 'Matter SQ';
+        font-size: rem(14);
+        font-weight: 300;
+        line-height: rem(18);
+        text-align: left;
+        text-transform: uppercase;
+      }
+
+      .quantity input.qty:not(#qib_id):not(#qib_id) {
+        width: 30px;
+        text-align: center;
+      }
+    }
+  }
+}

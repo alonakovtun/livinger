@@ -1,0 +1,121 @@
+@import './config/vendor';
+@import './config/default-variables';
+@import './utils/functions';
+@import './utils/mixins';
+@import './config/global';
+
+
+// atoms
+@import './atoms/qty';
+@import './atoms/filters';
+@import './atoms/preloader';
+@import './atoms/preloader-in';
+@import './atoms/breadcrumb';
+@import './atoms/select';
+@import './atoms/vartiantos';
+@import './atoms/attibute-image';
+@import './atoms/add-to-cart';
+@import './atoms/animation';
+@import './atoms/forms-ui';
+@import './atoms/buttons';
+@import './atoms/search';
+@import './atoms/woocommerce';
+@import './atoms/modals';
+@import './atoms/fancy-box';
+@import './atoms/uwagi';
+@import './atoms/modal-accept';
+
+
+// components
+@import './components/index';
+@import './components/animate-site';
+@import './components/txt';
+@import './components/flex';
+@import './components/button';
+@import './components/navigation';
+@import './components/textarea';
+@import './components/components';
+@import './components/margin-padding';
+@import './components/blocks/header';
+@import './components/blocks/footer';
+@import './components/blocks/menu';
+@import './components/cart-item';
+@import './components/product';
+@import './components/single-product/single-product';
+@import './components/qty';
+@import './components/tabs';
+@import './components/single-product/related-product';
+@import './components/single-product/right-box';
+@import './components/slider-product';
+@import './components/terms';
+@import './components/accordion';
+@import './components/table';
+@import './components/ui';
+
+// home page
+@import './components/home/main-screen';
+@import './components/home/category-block';
+@import './components/home/bestsellery';
+@import './components/home/news';
+@import './components/home/blog';
+@import './components/home/video';
+@import './components/home/point-mobile';
+
+@import './components/newsletter';
+
+
+// checkout
+@import './components/checkout/billing';
+@import './components/checkout/shipping';
+@import './components/checkout/checkout';
+@import './components/checkout/payment';
+@import './components/checkout/checkout-redesign';
+
+// mini-cart
+@import './components/mini-cart/mini-cart';
+
+// shop
+@import './components/shop/products';
+@import './pages/shop';
+
+// blog
+@import './components/blog/blog';
+@import './components/blog/single-blog';
+
+// about
+@import './components/about';
+
+// accout
+@import './components/accout/accout';
+@import './components/accout/form';
+@import './components/accout/menu';
+@import './components/accout/addresses';
+@import './components/accout/edit';
+@import './components/accout/view-order';
+
+
+// information
+
+@import './components/information/information';
+@import './components/information/wysylka';
+@import './components/information/faq';
+
+
+@import './components/contact';
+
+// redesign
+
+@import "./redesign/form-login-register";
+
+
+@import "./pages/wishlist";
+@import "./components/home/mobile-news";
+@import "./components/home/mobile-video";
+
+// mobile
+@import "./mobile/view-product";
+@import "./mobile/shop";
+@import "./mobile/checkout";
+@import "./mobile/kup-jako";
+@import "./mobile/wish-list";
+@import "./mobile/orders";

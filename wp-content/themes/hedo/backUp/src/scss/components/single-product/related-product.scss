@@ -1,0 +1,36 @@
+.related {
+  position: relative;
+  border-top: 1px solid $c-gold-black;
+  margin-top: rem(138);
+
+  &_two {
+    border-top: none;
+    margin-top: 0;
+  }
+
+  &__container {
+    padding: 0 rem(20);
+  }
+
+  &__item {
+    max-width: rem(611);
+  }
+
+  .swiper-slide {
+    .woocommerce-loop-product__link {
+      display: block;
+      position: relative;
+      background-color: $c-white;
+      overflow: hidden;
+      height: rem(795);
+
+      img {
+        @include full-abs();
+        margin: auto;
+        object-fit: contain;
+        object-position: center center;
+        width: 67%;
+      }
+    }
+  }
+}

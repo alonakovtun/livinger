@@ -1,0 +1,49 @@
+.blog {
+  position: relative;
+  margin-top: rem(73);
+
+  &__title {
+    margin-bottom: rem(11);
+  }
+
+  &__desc {
+    display: block;
+    max-width: rem(484);
+    margin: 0 auto rem(69)
+  }
+}
+
+@include mmax ($pad){
+
+  .blog {
+    margin-top: rem(38);
+
+    &__title {
+      font-size: rem(18);
+      margin-bottom: rem(38);
+    }
+
+    &__desc {
+      max-width: rem(240);
+      font-size: rem(14);
+      margin-bottom: rem(37);
+    }
+
+    .news_block {
+      margin-left: 0 !important;
+      width: 100%;
+      flex-basis: 100%;
+      margin-bottom: rem(10) !important;
+
+      &:last-child {
+        margin-bottom: calc(-4.4375rem + 0.625rem) !important;
+
+      }
+    }
+
+    .button-link-24 {
+      font-size: rem(16);
+      line-height: rem(24);
+    }
+  }
+}

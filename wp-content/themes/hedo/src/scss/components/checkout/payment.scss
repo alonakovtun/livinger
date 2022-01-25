@@ -1,0 +1,52 @@
+.payment-method {
+  position: relative;
+  width: 100%;
+
+
+  &__image {
+    position: relative;
+    width: rem(181);
+    height: 100%;
+    @include dflex(center, wrap, center);
+    border-right: 1px solid $c-gold;
+
+  }
+
+  &-img {
+    display: block;
+    max-width: 100%;
+  }
+
+  label {
+    @include dflex(center, wrap, space-between);
+    height: rem(109);
+    border: 2px solid $c-gold;
+    border-top: none;
+    cursor: pointer;
+  }
+
+  input[type="radio"]:checked + label {
+    .payment-method__image {
+      border-right-color: $c-gold-black;
+    }
+  }
+
+  &__title {
+    flex: 1;
+    width: 100%;
+    padding-left: rem(33);
+    color: $c-default;
+    font-size: rem(16);
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: rem(0.64);
+  }
+
+  &__check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+}

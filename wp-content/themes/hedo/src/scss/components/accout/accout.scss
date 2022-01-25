@@ -1,0 +1,84 @@
+.account {
+  position: relative;
+  background-color: $c-back;
+  padding-bottom: rem(115);
+  padding-top: rem(115);
+
+  &__button {
+    color: $c-white !important;
+    margin-bottom: rem(32) !important;
+
+    &:hover {
+      background: $c-hover !important;
+      background-color: $c-hover !important;
+    }
+  }
+
+  &__pages {
+    @include container(rem(1773));
+    padding: rem(116) rem(20);
+  }
+
+  &__dash {
+    max-width: rem(700);
+    margin: 0 auto;
+  }
+
+  &__logout  {
+    a {
+      font-size: rem(16);
+      color: $c-black;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__edit-body {
+    padding: rem(50) rem(30) rem(30) rem(30);
+    border: 2px solid #c3a64d;
+    border-top: none;
+    margin-bottom: rem(25);
+
+    label {
+      left: 0 !important;
+    }
+  }
+
+  .button__trigger-register {
+    text-decoration: none;
+  }
+}
+
+@include mmax ($pad){
+  .account {
+    &__pages {
+      padding: 0;
+    }
+
+    &__dash {
+      padding: rem(36) rem(20);
+
+      .txt-18 {
+        font-size: rem(14);
+        margin-bottom: rem(23);
+      }
+
+      .txt-16 {
+        font-size: rem(14);
+        line-height: rem(16);
+      }
+
+      .account__logout {
+        margin-top: rem(20);
+        font-size: rem(14);
+
+        a {
+          font-size: rem(14);
+        }
+      }
+    }
+  }
+}

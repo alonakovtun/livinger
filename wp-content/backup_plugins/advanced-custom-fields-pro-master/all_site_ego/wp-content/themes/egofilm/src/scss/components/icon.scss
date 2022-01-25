@@ -1,0 +1,4 @@
+.icon-phone {
+  @include icon(rem(15), rem(23.19), 'phone.svg');
+  display: block;
+}

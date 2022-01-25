@@ -1,0 +1,79 @@
+.button {
+  transition: all 0.3s ease-in-out;
+
+  &__reset {
+    @include  reset-button();
+  }
+
+  &__back {
+    color: #282828;
+    font-size: rem(20);
+    font-weight: 300;
+    line-height: rem(24);
+    text-align: right;
+    letter-spacing: rem(0.64);
+
+    &_absolute {
+      position: absolute;
+      left: rem(20);
+      z-index: 99;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__input {
+    @include  reset-button();
+    @include  dflex(center, wrap, center);
+    width: 100%;
+    height: rem(90);
+    padding: 0 rem(20);
+    border-bottom: 2px solid $c-gold;
+    color: #282828;
+    font-size: rem(16);
+    font-weight: 300;
+    line-height: rem(20);
+    letter-spacing: rem(0.56);
+    text-transform: uppercase;
+
+    transition: .3s ease-in-out;
+
+    &:hover {
+      background-color: $c-gold;
+      color: $c-white;
+    }
+  }
+
+  &__full {
+    width: 100%;
+    height: rem(90);
+  }
+
+  &__green {
+    background: $c-green;
+
+    &:hover {
+      background: $c-gold-black;
+    }
+  }
+
+  &__flex {
+    @include  dflex(center, wrap, center);
+  }
+
+
+
+  &__register {
+
+    color: $c-white;
+    font-size: rem(20);
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: rem(36);
+    text-align: left;
+    text-transform: uppercase;
+  }
+}

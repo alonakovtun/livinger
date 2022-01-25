@@ -1,0 +1,52 @@
+.accept {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgba(243, 241, 241, 0.769);
+  width: 100%;
+  height: 100vh;
+  @include dflex(center, wrap, center);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+  cursor:  url("../img/close-black.svg") 4 12, auto;
+
+  &__container {
+    background-color: $c-white;
+    border: 2px solid #fa0101;
+    width: rem(538);
+    padding: rem(30) rem(80);
+    min-height: rem(170);
+    @include dflex(center, wrap, space-between);
+    flex-direction: column;
+    cursor: auto;
+  }
+
+  &__title {
+    font-size: rem(16);
+    color: rgb(40, 40, 40);
+    text-transform: uppercase;
+  }
+
+  &__bottom {
+    @include dflex(center, wrap, center);
+  }
+
+  &__button {
+    font-size: rem(16);
+    color: rgb(40, 40, 40);
+    text-transform: uppercase;
+    margin: 0 rem(55);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.accept._active {
+  opacity: 1;
+  visibility: visible;
+}

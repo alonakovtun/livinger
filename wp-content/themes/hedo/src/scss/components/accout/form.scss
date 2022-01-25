@@ -1,0 +1,35 @@
+.account {
+  &__container {
+    @include container(rem(1773));
+    padding: 0 rem(20);
+  }
+
+  &__flex {
+    border-left: 2px solid $c-gold;
+    border-right: 2px solid $c-gold;
+    border-bottom: 2px solid $c-gold;
+    padding: rem(46) rem(34);
+    max-height: 179px;
+  }
+
+  &__form {
+    margin: 0;
+    padding: 0;
+    width: rem(751);
+
+    &-label {
+      left: 0 !important;
+    }
+
+  }
+
+  &__reg {
+    &-bottom {
+      margin-top: rem(17);
+    }
+  }
+
+  &__register {
+    display: none;
+  }
+}

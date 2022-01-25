@@ -1,0 +1,78 @@
+.table {
+  &__head {
+    height: rem(74);
+    width: 100%;
+    background-color:#e7e2d8;
+    margin: 0;
+
+    &-tr {
+      width: 100%;
+      height: rem(74);
+      border: 2px solid #c3a64d;
+      background-color:#e7e2d8;
+      margin: 0;
+      padding: 0 rem(20);
+    }
+  }
+
+  &__th,
+  &__td {
+    a {
+      text-decoration: none;
+    }
+
+    &:nth-child(1) {
+      width: rem(150);
+    }
+
+    &:nth-child(2) {
+      width: rem(150);
+    }
+
+    &:nth-child(3) {
+      width: rem(230);
+    }
+
+    &:nth-child(4) {
+      width: rem(154);
+    }
+
+    &:nth-child(5) {
+      width: rem(220);
+    }
+  }
+
+  &__body {
+    border: 2px solid #c3a64d;
+    background-color: $c-white;
+    border-top: none;
+    padding: 0 rem(20);
+
+    &-tr {
+      height: rem(74);
+
+      .woocommerce-orders-table__cell-order-total {
+        text-transform: uppercase;
+      }
+
+      .button {
+        padding: 0 !important;
+        background: none !important;
+        box-shadow: none !important;
+        position: relative!important;
+        font-family: 'Matter SQ'!important;
+        font-weight: 300!important;
+        text-decoration: underline!important;
+        z-index: 3 !important;
+        text-transform: uppercase;
+        margin-right: rem(15) !important;
+        color: $c-black;
+
+        &:hover {
+          text-decoration: none !important;
+          background-color: none !important;
+        }
+      }
+    }
+  }
+}

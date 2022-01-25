@@ -1,0 +1,55 @@
+@include mmax ($pad){
+  .yith-wcwl-form {
+    padding: rem(30) rem(10);
+  }
+
+  .wishlist_table {
+    .add_to_cart_button {
+      display: none !important;
+    }
+
+    .slider-product {
+      margin-right: 0 !important;
+      height: calc((var(--vh, 1vh) * 100) - (94px));
+    }
+
+    .slider-product__tag {
+      top: rem(20);
+      left: rem(20);
+
+      &-item {
+        top: rem(0) !important;
+        left: rem(0) !important;
+        font-size: rem(14);
+      }
+    }
+
+    .remove_from_wishlist {
+      top: rem(20);
+      right: rem(20);
+      transform: scale(0.8);
+    }
+
+    .slider-product__bottom {
+      bottom: rem(20);
+      left: rem(20);
+
+        &_width {
+          width: calc(100% - 2rem);
+        }
+    }
+
+    .slider-product__name {
+      font-size: rem(16);
+      line-height: rem(18);
+      flex: 1;
+    }
+
+    .slider-product__price {
+      font-size: rem(16) !important;
+      line-height: rem(18);
+    }
+  }
+
+
+}

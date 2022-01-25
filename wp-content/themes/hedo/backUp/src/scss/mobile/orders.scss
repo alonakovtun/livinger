@@ -1,0 +1,86 @@
+@include mmax ($pad){
+  .woocommerce-orders {
+    .account__pages {
+      padding: rem(35) rem(10);
+    }
+
+    .table {
+      &__head {
+        display: none !important;
+      }
+
+      &__body {
+        background: none;
+        border: none;
+        padding: 0;
+
+        &-tr {
+          border: 2px solid $c-gold;
+          margin: 0 0 rem(35);
+          height: auto;
+        }
+      }
+
+      &__td {
+        display: block;
+        width: 100%;
+        height: rem(72);
+        border-bottom: 1px solid $c-gold;
+        padding: 0 rem(27);
+        @include dflex(center, wrap, space-between);
+        font-size: rem(14);
+
+        a,
+        time,
+        p {
+          font-size: rem(14);
+        }
+      }
+
+      .woocommerce-orders-table__cell-order-number,
+      .woocommerce-orders-table__cell-order-date,
+      .woocommerce-orders-table__cell-order-status,
+      .woocommerce-orders-table__cell-order-total,
+      .woocommerce-orders-table__cell-order-actions {
+        &::before {
+          content: 'Order';
+          font-size: rem(14);
+          text-transform: uppercase;
+
+        }
+      }
+
+      .woocommerce-orders-table__cell-order-date {
+        &::before {
+          content: 'Date';
+        }
+      }
+
+      .woocommerce-orders-table__cell-order-status {
+        &::before {
+          content: 'Status';
+        }
+      }
+
+      .woocommerce-orders-table__cell-order-total {
+        &::before {
+          content: 'Total';
+        }
+      }
+
+      .woocommerce-orders-table__cell-order-actions {
+        border-bottom: 0 !important;
+
+        a {
+          margin-right: 0 !important;
+          margin-left: rem(10);
+        }
+
+        &::before {
+          content: 'actions';
+          flex: 1;
+        }
+      }
+    }
+  }
+}

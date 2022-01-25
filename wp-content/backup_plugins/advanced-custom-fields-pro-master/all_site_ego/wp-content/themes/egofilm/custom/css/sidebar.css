@@ -1,0 +1,192 @@
+/* ASIDE
+   ===== */
+
+.u-shadow-aside {
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.u-aside {
+	overflow-y: auto;
+	width: 75%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: -100%;
+	z-index: 1;
+	background-color: #fff;
+}
+
+.btn-aside-close {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	background: url(../img/icon-x.svg) no-repeat center center/contain;
+	border: none;
+	cursor: pointer;
+}
+
+/* TOGGLE BUTTON */
+
+.btn-aside-open {
+	display: none;
+	height: 26px;
+	width: 26px;
+	padding: 0;
+	position: absolute;
+	top: -4px;
+	right: 0;
+	z-index: 1;
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.aside-open_bar {
+	background: #000;
+	display: block;
+	height: 2px;
+	width: 18px;
+	margin: 0 auto;
+}
+
+.aside-open_bar + .aside-open_bar {
+	margin-top: 4px;
+}
+
+
+/* MODIFICATORS
+   ============ */
+
+.m-bunner-hide {
+	display: none;
+}
+
+
+/* ANIMATIONS
+   ========== */
+
+.m-shadow-hide {
+	animation: m-shadow-hide 0.5s forwards;
+}
+
+.m-shadow-show {
+	animation: m-shadow-show 0.5s forwards;
+}
+
+@keyframes m-shadow-hide {
+	from {
+		opacity: 1;
+		z-index: 3;
+	}
+	99% {
+		z-index: 3;
+	}
+	to {
+		opacity: 0;
+		z-index: -1;
+	}
+}
+
+@keyframes m-shadow-show {
+	from {
+		opacity: 0;
+		z-index: -1;
+	}
+	1% {
+		z-index: 3;
+	}
+	to {
+		opacity: 1;
+		z-index: 3;
+	}
+}
+
+.m-aside-show {
+	animation: m-aside-show 0.5s forwards;
+}
+
+.m-aside-hide {
+	animation: m-aside-hide 0.5s forwards;
+}
+
+
+@keyframes m-aside-hide {
+	from {
+		left: 0;
+		z-index: 3;
+	}
+	to {
+		left: -100%;
+		z-index: 1;
+	}
+}
+
+@keyframes m-aside-show {
+	from {
+		left: -100%;
+		z-index: 1
+	}
+	to {
+		left: 0;
+		z-index: 3;
+	}
+}
+
+
+/**
+ * Content
+ */
+
+.u-aside .b-logo {
+	position: absolute;
+	top: 24px;
+	left: 14%;
+}
+
+.u-aside .b-nav {
+	flex-direction: column;
+
+	transform: translateY(-50%);
+	top: 50%;
+	left: 14%;
+	position: absolute;
+}
+
+.u-aside .b-nav .nav_unit {
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+
+.u-aside .b-nav .nav_unit a {
+	font-size: 34px;
+}
+
+.u-aside .b-lang {
+	position: absolute;
+	left: 14%;
+	bottom: 24px;
+}
+
+.u-aside .lang_pl,
+.u-aside .lang_en {
+	font-size: 18px;
+}
+
+@media (max-width: 720px) {
+	.btn-aside-open {
+		display: block;
+	}
+	.btn-shop {
+		display: none;
+	}
+}

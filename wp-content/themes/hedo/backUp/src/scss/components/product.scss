@@ -1,0 +1,53 @@
+.product {
+  position: relative;
+  background-color: $c-white;
+
+  &__image {
+    position: relative;
+    height: 100%;
+    @include dflex(center, wrap, center);
+    overflow: hidden;
+
+    img {
+      display: block;
+      max-width: 100%;
+      transition: 0.5s;
+    }
+
+    &_vertical {
+      align-items: flex-start;
+    }
+  }
+
+  &__name {
+    text-decoration: none;
+  }
+
+  &__like {
+    position: absolute;
+    top: rem(44);
+    right: rem(44);
+    transition: 0.5s;
+    z-index: 9;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
+
+  &__bottom {
+    bottom: rem(44);
+    left: rem(46);
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    .product__image {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

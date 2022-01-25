@@ -1,0 +1,48 @@
+.account__edit-body {
+  .select2-selection {
+    display: flex !important;
+    vertical-align: top !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    cursor: pointer !important;
+    width: 100% !important;
+    height: 1.875rem !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #ceb76f !important;
+    font-family: "Matter SQ" !important;
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+    line-height: normal !important;
+    text-align: left !important;
+    letter-spacing: 0.8px  !important;
+    z-index: 99 !important;
+
+    .select2-selection__rendered {
+      padding: 0 !important;
+    }
+
+    .select2-selection__placeholder {
+      color: #000 !important;
+      font-size: 1rem !important;
+    }
+  }
+}
+
+@include mmax ($pad){
+  .woocommerce-edit-address {
+    .account__pages {
+      padding: rem(35) rem(10);
+    }
+  }
+
+  .account__edit-body {
+    padding: rem(30) rem(20);
+  }
+
+  .checkout__button {
+    height: rem(72);
+    font-size: rem(14) !important;
+  }
+}

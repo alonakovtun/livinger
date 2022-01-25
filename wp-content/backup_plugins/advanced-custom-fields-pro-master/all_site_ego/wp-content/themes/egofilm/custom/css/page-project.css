@@ -1,0 +1,38 @@
+/* ==============================
+ * page Project
+ * ============================== */
+
+.p-project {
+	position: relative;
+	text-align: center;
+}
+
+.p-project * {
+	color: #000;
+}
+
+.p-project p span {
+	
+}
+
+.p-project .project_title {
+	margin-bottom: 12px;
+}
+
+.p-project .project_main-txt-block p,
+.p-project .project_tagline a {
+	text-transform: none;
+}
+
+.p-project .project_link {
+	position: absolute;
+	bottom: -90px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #000;
+	text-transform: none;
+}
+
+.p-project .b-gallery + .a--txt-nrrw {
+	margin-bottom: 110px;
+}

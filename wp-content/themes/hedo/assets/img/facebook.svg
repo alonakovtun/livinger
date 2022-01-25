@@ -1,0 +1,9 @@
+<svg id="SVGDoc" width="21" height="21" xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:avocode="https://avocode.com/" viewBox="0 0 21 21">
+  <defs></defs>
+  <g>
+    <image
+      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAABl0lEQVQ4T7XVsUuVURjH8Y/hELSFuGjW0iRELYJGIQ41BFKTFBRGODhaSH9DBI2JSRQ1RFPipkNIUUFTRLk0FIqLQYs4FRkPnPdy7sv73nuL2zue5znf5zm/33nO26P+O4PLGMdx9OIXvmAdz/C6antPxeIJLGAM21jFZ/zAYQzjPAbwFrP4mHPK0KtYwhbmsYLfFYUPYBJ3cQQzeFrk5dAAPsFz3MBeC2mK0CE8xBSuFeACGkd+j+Wk434HwLyx0PciRkKKAvoG/ThZ0+EErqAvkQKQf9HxB+zgdEDD5Ve4lDotNxmu7+JgFqgyOAq9wNkI3k+iD9WYEkZsJuAtvExdlYuHeZG3EtANvEvmlBMHcSy7jxfwKStSzg/TRgP6E7dxr8KcbzhaWv+e9K/y8ibuBDScvo7HFVnnUqeLKRabYhDWam7HNB616zT2xvG/JsipGj2LGo1OW2n6t9CGpu3c77TTJvfb3dNOoU33NI7YaqJi0h4k0eYyfVtOVAT/y+wHuOuvVHGUrr+nBbjrL38u/j//o/4A41FzXTrCzHcAAAAASUVORK5CYII="
+      width="21" height="21" transform="matrix(1,0,0,1,0,0)"></image>
+  </g>
+</svg>

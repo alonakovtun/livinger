@@ -1,0 +1,43 @@
+.select2 {
+  width: 100% !important;
+  flex: 1 !important;
+
+  &-selection {
+    border: 1px solid #c3a64d !important;
+    height: rem(90) !important;
+    @include  dflex(center, wrap, space-between);
+    display: flex !important;
+    background: none !important;
+    padding: 0 rem(21) !important;
+    border-radius: 0 !important;
+
+    &__rendered{
+      color: #020202 !important;
+      font-size: rem(14) !important;
+      font-weight: 300 !important;
+      line-height: rem(18) !important;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    &__arrow {
+      position: relative !important;
+    }
+  }
+
+  &-results {
+
+    &__options {
+
+    }
+
+    &__option {
+      &:nth-child(1) {
+        &::after,
+        &::before {
+          display: none !important;
+        }
+      }
+    }
+  }
+}

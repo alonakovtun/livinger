@@ -1,0 +1,23 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+body div.updated.woocommerce-error {
+    border-left-color: #b22222;
+}
+.get-furgonetka{
+    display:inline-block;
+}
+table.wp-list-table .get-furgonetka img{
+    display:block;
+    margin:0;
+}
+#furgonetka_delivery .get-furgonetka{
+    padding:10px 0;
+    display: block;
+}
+#furgonetka_delivery .get-furgonetka img{
+    margin:0 auto;
+    display: block;
+}

@@ -1,0 +1,186 @@
+.title {
+  &-80 {
+    color: $c-white;
+    font-family: 'Matter SQ';
+    font-size: rem(80);
+    line-height: rem(80);
+    font-weight: 300;
+    text-align: left;
+
+    strong {
+      text-transform: uppercase;
+    }
+  }
+
+
+  &-block {
+    color: $c-black;
+    font-family: 'Editorial New - Ultralight';
+    font-size: rem(18);
+    font-weight: 400;
+    line-height: rem(27);
+
+    a {
+      color: $c-green;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &-40 {
+    font-size: rem(40);
+  }
+
+  &-30 {
+    font-size: rem(30);
+  }
+
+  &-28 {
+    font-size: rem(28);
+  }
+}
+
+.txt {
+  &-14 {
+    color: #050505;
+    font-size: rem(14);
+    font-weight: 400;
+  }
+
+  &-16 {
+    color: #f5f0f0;
+    font-family: 'Matter SQ';
+    font-size: rem(16);
+    font-weight: 300;
+  }
+
+  &-18 {
+    font-size: rem(18);
+    font-weight: 400;
+    color: #231f20;
+  }
+
+  &-20 {
+    font-size: rem(20);
+  }
+
+  &-24 {
+    color: $c-black;
+    font-family: 'Matter SQ';
+    font-size: rem(24);
+    font-weight: 300;
+  }
+
+  &-36 {
+    font-size: rem(36);
+  }
+
+  &-bold {
+    font-weight: bold;
+  }
+
+  &-light {
+    font-weight: 300;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-rigth {
+    text-align: right;
+  }
+
+  &-upper {
+    text-transform: uppercase;
+  }
+
+  &-capital {
+    text-transform: capitalize;
+  }
+
+  &-transform-none {
+    text-transform: none;
+  }
+
+  &-green {
+    color: $c-green;
+  }
+}
+
+.c {
+  &-gold {
+    color: $c-gold !important;
+
+    &-black {
+      color: $c-gold-black !important;
+    }
+  }
+
+  &-green {
+    color: $c-green !important;
+  }
+
+  &-black {
+    color: $c-black !important;
+
+    &-mini {
+      color: $c-black-mini;
+    }
+  }
+
+  &-white {
+    color: $c-white !important;
+  }
+
+  &-black-dark {
+    color: $c-black-dark !important;
+  }
+
+  &-under {
+    text-decoration: underline;
+  }
+}
+
+.lh-23 {
+  line-height: rem(23);
+}
+
+.lh-24 {
+  line-height: rem(24);
+}
+
+.lh-27 {
+  line-height: rem(27);
+}
+
+.lh-36 {
+  line-height: rem(36);
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.ff {
+  &-ed {
+    font-family: "Editorial New - Ultralight";
+  }
+}
+
+.hov {
+  &-underline {
+    text-decoration: underline;
+
+    &-dont {
+      text-decoration: none !important;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

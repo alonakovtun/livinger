@@ -1,0 +1,27 @@
+nav.woocommerce-breadcrumb {
+  display: flex !important;
+  @include  container(rem(1753));
+  padding: 0 rem(20) !important;
+  color: $c-black !important;
+  font-family: 'Matter SQ';
+  font-size: rem(18) !important;
+  font-weight: 300 !important;
+  line-height: rem(36) !important;
+  text-align: left !important;
+  text-decoration: none;
+  margin: rem(39) auto !important;
+
+  a {
+    color: $c-black !important;
+    font-family: 'Matter SQ';
+    font-size: rem(18);
+    font-weight: 300;
+    line-height: rem(36);
+    text-align: left;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

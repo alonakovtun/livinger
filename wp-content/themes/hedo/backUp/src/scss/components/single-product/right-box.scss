@@ -1,0 +1,142 @@
+.product {
+  &_title {
+    color: #8a732c;
+    font-size: rem(24);
+    font-weight: 300;
+    line-height: rem(24);
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: rem(7);
+    margin-bottom: rem(45);
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  &__wishlist {
+    position: absolute;
+    top: rem(6);
+    right: 0;
+
+    .yith-wcwl-add-to-wishlist {
+      margin: 0 !important;
+    }
+
+    .add_to_wishlist {
+      display: block;
+    }
+
+    img {
+      width: rem(24);
+      max-width: rem(24);
+      margin: 0!important;
+    }
+  }
+
+  .woocommerce-product-details__short-description {
+    color: #231f20;
+    font-size: rem(18);
+    font-weight: 400;
+    line-height: rem(27);
+    text-align: left;
+    margin-bottom: rem(45);
+    max-width: rem(492);
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  &__description {
+
+    .product_meta {
+      opacity: 0;
+      animation-fill-mode: forwards;
+
+      .tagged_as {
+        display: none;
+
+      }
+
+      .tagged_as {
+        color: #000000;
+        font-size: rem(16);
+        font-weight: 300;
+        line-height: rem(36);
+        text-align: left;
+
+        a {
+          color: #000000;
+          font-size: rem(16);
+          font-weight: 300;
+          line-height: rem(36);
+          text-align: left;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .sku_wrapper {
+        display: block;
+        margin-bottom: rem(45);
+        color: #050505;
+        font-size: rem(14);
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: rem(24);
+        text-align: left;
+      }
+
+      &:nth-child(1) {
+        .sku_wrapper {
+          display: none;
+
+        }
+
+        .tagged_as {
+          display: block;
+        }
+      }
+    }
+
+    .variation_custom {
+      margin-bottom: rem(73);
+    }
+
+    .price {
+      display: none;
+    }
+
+
+    .value {
+      width: 100%;
+      flex: 1;
+
+
+      .reset_variations {
+        transform: translateY(-27px);
+      }
+    }
+
+    .woocommerce-variation-price .price {
+      display: block;
+      position: relative;
+      color: #050505;
+      font-size: rem(24);
+      font-weight: 400;
+      line-height: rem(24);
+      text-align: left;
+      text-transform: uppercase;
+
+
+      ins {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .woocommerce-variation-availability {
+    margin-top: rem(15);
+  }
+}

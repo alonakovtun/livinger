@@ -1,0 +1,560 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"ta",
+				"text-align\tproperty"
+			],
+			[
+				"btn",
+				"btnQuantityDown"
+			],
+			[
+				"spa",
+				"space-around\tjustify-content"
+			],
+			[
+				"TT",
+				"TTWellingtons-Light"
+			],
+			[
+				"c",
+				"color\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"btnVi",
+				"btnVideoSoundCustom"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"b",
+				"bCheckbox"
+			],
+			[
+				"wp_",
+				"wp_enqueue_script"
+			],
+			[
+				"get_te",
+				"get_template_directory_uri"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"d",
+				"default\tcursor"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"check",
+				"checkoutButton"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/block.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/js/main.js",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/home.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/front-page.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/header.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/header.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/content-single-product.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/single-product.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/page-shop.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/content-product_cat.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/content-product.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/archive-product.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/page-single-product.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/sidebar.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/footer.php",
+		"/Applications/MAMP/htdocs/pet/wp-config.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/sidebar.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/atom.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/page-archive-category.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/pr-functions.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/loop/loop-start.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/page-archive-category.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/product-searchform.php",
+		"/Users/zero-one/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/zero-one/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/content-single.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/base.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/page-home-shop.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/inc/woocommerce/storefront-woocommerce-template-hooks.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/global/quantity-input.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/plugins/woocommerce/includes/wc-template-functions.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/single-product/add-to-cart/simple.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/woocommerce/single-product/price.php",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/woocommerce.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/single-product.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/css/footer.css",
+		"/private/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/fz3temp-2/common.js",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/lib/animate.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/custom/lib/owl/owl.carousel.min.css",
+		"/Applications/MAMP/htdocs/pet/wp-content/themes/theme shop/functions.php",
+		"/Applications/MAMP/htdocs/pet/.htaccess",
+		"/Users/zero-one/Work/Found/Wp Theme/theme/functions.php",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/css/atom.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/lib/fancybox/jquery.fancybox.min.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/lib/transit/jquery.transit.js",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/css/sidebar.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/js/main.js",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/css/base.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/pr-functions.php",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/css/footer.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/css/block.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/lib/bootstrap/bootstrap-grid.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/style.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/css/header.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/front-page.php",
+		"/Applications/MAMP/htdocs/egofilm/wp-config.php",
+		"/Users/zero-one/Downloads/lukauk01_egofilm 2.sql",
+		"/Users/zero-one/Downloads/lukauk01_egofilm.sql",
+		"/Users/zero-one/Downloads/egofilm.sql",
+		"/Applications/MAMP/htdocs/egofilm/.htaccess",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/css/home.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/css/page-project.css",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/single-projects.php",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/header.php",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/footer.php",
+		"/Users/zero-one/Downloads/egofilm (3).sql",
+		"/Users/zero-one/Downloads/egofilm (2).sql",
+		"/Users/zero-one/Downloads/egofilm (1).sql",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/404.php",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/custom/single-projects.php",
+		"/private/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/fz3temp-2/custom-post-types.php",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/custom/js/main.js",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/custom/css/atom.css",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/custom/css/footer.css",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/custom/css/base.css",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/footer.php",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/front-page.php",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/page-contact.php",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/custom/css/header.css",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/header.php",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/custom/pr-functions.php",
+		"/Users/zero-one/Downloads/snazzy-maps-example-ultra-light-with-labels-style (1).html",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/custom/css/home.css",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/custom/lib/masonry/masonry.js",
+		"/Users/zero-one/Work/Found/Wp Theme/theme/custom/pr-functions.php",
+		"/Applications/MAMP/htdocs/puzzle/wp-content/themes/theme/functions.php",
+		"/Applications/MAMP/htdocs/puzzle/.htaccess",
+		"/Users/zero-one/Work/Found/Wp Theme/theme/footer.php",
+		"/Users/zero-one/Work/Found/Wp Theme/theme/header.php",
+		"/Users/zero-one/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/zero-one/Library/Application Support/Sublime Text 3/Packages/User/console.sublime-snippet",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/archive.php",
+		"/Users/zero-one/Library/Application Support/Sublime Text 3/Packages/User/divide-2.sublime-snippet",
+		"/Users/zero-one/Library/Application Support/Sublime Text 3/Packages/User/divide-1.sublie-snippet",
+		"/Applications/MAMP/htdocs/egofilm/wp-content/themes/egofilm/functions.php",
+		"/Users/zero-one/Library/Application Support/Sublime Text 3/Packages/User/divide-2",
+		"/private/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/fz3temp-2/payment.php",
+		"/private/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/fz3temp-2/rs-content-footer.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527780291/ftp-zoom/public_html/wp-content/themes/z-zoom/footer.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527772976/ftp-zoom/public_html/wp-content/themes/z-zoom/template-about-us-range.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527773193/ftp-zoom/public_html/wp-content/themes/z-zoom/template-award.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527778784/ftp-zoom/public_html/wp-content/themes/z-zoom/header.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527778986/ftp-zoom/public_html/wp-content/themes/z-zoom/template-homepage.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527766196/ftp-zoom/public_html/wp-content/themes/z-zoom/css/main.min.css",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527767879/ftp-zoom/public_html/wp-content/themes/z-zoom/footer.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527768431/ftp-zoom/public_html/wp-content/themes/z-zoom/js/common.js",
+		"/Users/zero-one/Work/Sites/Zoom/template-award.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527764181/ftp-zoom/public_html/wp-content/themes/z-zoom/functions.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527763584/ftp-zoom/public_html/wp-content/themes/z-zoom/footer.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527764840/ftp-zoom/public_html/wp-content/themes/z-zoom/inc/customizer.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527764739/ftp-zoom/public_html/wp-content/themes/z-zoom/inc/security.php",
+		"/Users/zero-one/Downloads/Ftp puzzlestudio@z-zoom.co.uk@z-zoom.co.uk.xml",
+		"/Users/zero-one/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/ftp-zoom",
+		"/private/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/fz3temp-2/main.min 2.css",
+		"/private/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/fz3temp-2/form-login 3.php",
+		"/private/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/fz3temp-2/base.css",
+		"/private/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/fz3temp-2/footer.css",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527529171/ftp-p&h/domains/parishendzel.com/private_html/wp-content/themes/paris_hedzel_shop/woocommerce/checkout/form-shipping.php",
+		"/private/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/fz3temp-2/form-login.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527082306/ftp-mintlabel/wp-content/themes/mintlabel/js/common.js",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527081373/ftp-mintlabel/wp-content/themes/mintlabel/woocommerce/checkout/form-shipping.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527081031/ftp-mintlabel/wp-content/themes/mintlabel/footer.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527079779/ftp-mintlabel/wp-content/themes/mintlabel/woocommerce/checkout/review-order.php",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527083335/ftp-mintlabel/wp-content/themes/mintlabel/css/main.min.css",
+		"/Users/zero-one/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/ftp-mintlabel",
+		"/var/folders/k8/3p3t79j17ygbb245sbhjvsh40000gn/T/sublime-sftp-browse-1527079608/ftp-mintlabel/wp-content/themes/mintlabel/woocommerce/checkout/terms.php",
+		"/Users/zero-one/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/ftp-beeyes"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 136.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 48.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "",
+	"project": "egofilm.sublime-project",
+	"replace":
+	{
+		"height": 92.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"home.css",
+				"custom/css/home.css"
+			],
+			[
+				"front-page.php",
+				"theme shop/front-page.php"
+			],
+			[
+				"header.css",
+				"custom/css/header.css"
+			],
+			[
+				"block.css",
+				"custom/css/block.css"
+			],
+			[
+				"main.js",
+				"custom/js/main.js"
+			],
+			[
+				"header.php",
+				"theme shop/header.php"
+			],
+			[
+				"content-single-product.php",
+				"theme shop/woocommerce/content-single-product.php"
+			],
+			[
+				"single-product.php",
+				"theme shop/woocommerce/single-product.php"
+			],
+			[
+				"page-shop.php",
+				"theme shop/page-shop.php"
+			],
+			[
+				"archive-product.php",
+				"theme shop/woocommerce/archive-product.php"
+			],
+			[
+				"wp-config.php",
+				"pet/wp-config.php"
+			],
+			[
+				"sidebar.css",
+				"custom/css/sidebar.css"
+			],
+			[
+				"sidebar.php",
+				"theme shop/sidebar.php"
+			],
+			[
+				"footer.php",
+				"theme shop/footer.php"
+			],
+			[
+				"page-product.css",
+				"custom/css/page-single-product.css"
+			],
+			[
+				"page-archi",
+				"custom/css/page-archive-category.css"
+			],
+			[
+				"page-archive",
+				"theme shop/page-archive-category.css"
+			],
+			[
+				"pr-functions.php",
+				"custom/pr-functions.php"
+			],
+			[
+				"block",
+				"custom/css/block.css"
+			],
+			[
+				"atom.css",
+				"custom/css/atom.css"
+			],
+			[
+				"content-single.php",
+				"theme shop/content-single.php"
+			],
+			[
+				"base.css",
+				"custom/css/base.css"
+			],
+			[
+				"page-single-product.css",
+				"custom/css/page-single-product.css"
+			],
+			[
+				"page-produc",
+				"custom/css/page-single-product.css"
+			],
+			[
+				"page-shop",
+				"custom/css/page-home-shop.css"
+			],
+			[
+				"pr-fu",
+				"custom/pr-functions.php"
+			],
+			[
+				"footer.css",
+				"custom/css/footer.css"
+			],
+			[
+				"functions.php",
+				"theme shop/functions.php"
+			],
+			[
+				"style.css",
+				"egofilm/style.css"
+			],
+			[
+				"fancybox",
+				"custom/lib/fancybox/jquery.fancybox.min.css"
+			],
+			[
+				"single-projects.php",
+				"egofilm/single-projects.php"
+			],
+			[
+				"page",
+				"custom/css/page-project.css"
+			],
+			[
+				"page-proejct.css",
+				"custom/css/page-project.css"
+			],
+			[
+				"single",
+				"egofilm/single-projects.php"
+			],
+			[
+				"atom",
+				"custom/css/atom.css"
+			],
+			[
+				"page-project.css",
+				"custom/css/page-project.css"
+			],
+			[
+				"home",
+				"custom/css/home.css"
+			],
+			[
+				"pro",
+				"custom/css/page-project.css"
+			],
+			[
+				"base",
+				"custom/css/base.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,27 @@
+.woocommerce-info {
+  color: #020202;
+  font-size: rem(16);
+  font-weight: 400;
+  line-height: rem(18);
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto !important;
+}
+
+.search .woocommerce-info {
+  padding: rem(150);
+}
+
+.reset_variations {
+  display: none !important;
+}
+
+.cart__bottom-review .woocommerce-info {
+  margin: 0 !important;
+}
+
+.checkout_coupon .textarea__input{
+  padding: 0 rem(32);
+  font-size: rem(16);
+}

@@ -1,0 +1,754 @@
+.praca {
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  &__container {
+    @include container($wrap);
+
+    > p {
+      text-align: left;
+
+      a {
+        position: relative;
+        color: $c-black;
+        text-decoration: none;
+
+        &::before {
+          content: '';
+          position: absolute;
+          right: 0;
+          bottom: rem(-2);
+          width: 0%;
+          height: rem(1);
+          background: $c-black;
+          transition: width 0.3s;
+        }
+
+        &:hover {
+          &::before {
+            width: 100%;
+            left: 0;
+            right: auto;
+          }
+        }
+      }
+    }
+  }
+
+  &__description {
+    padding: rem(41) 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: $c-black;
+    font-size: rem(28);
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+  }
+
+  &__trigger {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-in-out;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &::before {
+      content: '';
+      width: 0%;
+      height: 1px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: purple;
+      opacity: 0;
+      transition: width 0.3s ease-in-out,
+        opacity 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    &:hover {
+      cursor: pointer;
+      background: #fbfbfb;
+
+      &::before {
+        width: 0%;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__header {
+    @include container($wrap);
+    @include dflex(center, wrap, space-between);
+    padding: rem(56) 0 rem(64);
+  }
+
+  &__name {
+    width: rem(200);
+    text-align: left;
+    color: $c-black;
+    font-size: rem(14);
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+
+    strong {
+      font-weight: 500;
+    }
+  }
+
+  &__offer {
+    &-txt {
+      color: $c-black;
+      font-size: rem(14);
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    &-description {
+      flex-basis: rem(442);
+      color: $c-black;
+      font-size: rem(14);
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-align: left;
+    }
+  }
+
+  &__details {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: $c-white;
+    z-index: 9999;
+    transform: translateY(120%);
+    transition: 0.6s ease-in-out;
+    visibility: hidden;
+
+    &-header {
+      width: 100%;
+      height: rem(88);
+      @include dflex(center, wrap, flex-start);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+      .praca__container {
+        width: 100%;
+      }
+
+      .txt-default {
+        position: relative;
+        color: $c-black;
+        font-size: rem(14);
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        text-transform: uppercase;
+
+        &::before {
+          content: '';
+          position: absolute;
+          right: 0;
+          bottom: rem(-2);
+          width: 0%;
+          height: rem(1.5);
+          background: $c-black;
+          transition: width 0.3s ease-in-out;
+        }
+
+        &:hover {
+          &::before {
+            width: 100%;
+            left: 0;
+            right: auto;
+          }
+        }
+      }
+    }
+
+    &-subheader {
+      position: relative;
+      width: 100%;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+      .praca__name {
+        flex: 1;
+        width: 100%;
+        padding-left: rem(29);
+        text-align: center;
+      }
+
+      .praca__offer-description {
+        flex-basis: 50%;
+        width: 50%;
+        padding-left: rem(88);
+
+        p {
+          color: $c-black;
+          font-size: rem(14);
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: rem(19);
+          text-align: left;
+        }
+      }
+    }
+
+    &-list {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+      &-container {
+        @include container($wrap);
+      }
+
+      &-box {
+        flex-basis: 50%;
+        width: 50%;
+        padding: rem(41) rem(145) rem(39) 0;
+        font-size: rem(14);
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+
+        strong {
+          font-weight: 500;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: normal;
+          text-transform: uppercase;
+        }
+
+        ul {
+          margin-bottom: rem(15);
+
+          li {
+            list-style: inside;
+          }
+        }
+
+        p {
+          margin-bottom: rem(5);
+        }
+
+        &:first-child {
+          border-right: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        &:last-child {
+          padding: rem(41) rem(15) rem(39) rem(88);
+        }
+      }
+    }
+  }
+  &__details.active {
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  .wpcf7-form {
+    p {
+      @include container($wrap);
+      @include dflex(stretch, wrap, space-between);
+    }
+
+    .wpcf7-form-control-wrap {
+      position: relative;
+      flex-basis: 50%;
+      width: 50%;
+
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 100%;
+        width: 100%;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.1);
+      }
+
+      &:nth-child(2),
+      &:nth-child(5),
+      &:nth-child(8) {
+        &::before {
+          right: auto;
+          left: 100%;
+        }
+
+        input {
+          border-right: none;
+          padding-left: rem(88);
+        }
+      }
+
+      input {
+        width: 100%;
+        height: rem(88);
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: none;
+        border-left: none;
+        border-radius: 0;
+        outline: none;
+        font-size: rem(14);
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: rem(24);
+        color: $c-black;
+        text-align: justify;
+
+        &::placeholder {
+          color: #b4b4b4;
+        }
+      }
+    }
+  }
+
+  .drop_form_file-inputs {
+    position: absolute;
+    top: -99999px;
+    left: -9999px;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .form_file-inp {
+    flex-basis: 100%;
+    width: 100%;
+    padding: rem(39) rem(15) rem(39) 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: none;
+    border-left: none;
+    border-radius: 0;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    span {
+      @include container($wrap);
+      font-size: rem(14);
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: rem(24);
+      color: $c-black;
+      text-align: justify;
+      color: #b4b4b4;
+    }
+
+    .btn-file-inp,
+    .btn-remove-file-inp {
+      display: none;
+    }
+
+    &:nth-child(2) {
+      border-right: none;
+      padding-left: rem(88);
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 100%;
+      width: 100%;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .load {
+    width: 100%;
+
+    &__container {
+      @include container($wrap);
+      @include dflex(center, wrap, space-between);
+
+      .form_file-inp {
+        position: relative;
+        flex-basis: 50%;
+        width: 50%;
+
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 1px;
+          right: 100%;
+          background: rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .file-fake-inp-2 {
+        &::before {
+          right: auto;
+          left: 100%;
+        }
+      }
+    }
+
+    + p {
+      position: relative;
+      margin: 0 !important;
+      max-width: 100% !important;
+
+      .wpcf7-submit {
+        box-shadow: none;
+        background: none;
+        width: 100%;
+        height: rem(88);
+        @include dflex(center, wrap, center);
+        color: $c-black;
+        font-family: 'Neue Montreal';
+        font-size: rem(14);
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        text-transform: uppercase;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.praca .s-form .form_unit input[type='submit'][disabled='disabled'] {
+  cursor: not-allowed;
+}
+
+.wpcf7-response-output {
+  text-align: center;
+}
+
+.b-terms-accept {
+  position: relative;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.b-terms-accept::before {
+  content: '';
+  height: 14px;
+  width: 14px;
+  border: 1px solid #bbb;
+  margin-right: rem(10);
+  transition: 0.3s;
+}
+
+.b-terms-accept.active::before {
+  content: '';
+  background-color: #bbb;
+  border-color: darken(#bbb, 15%);
+}
+
+.terms-accept_drop {
+  display: none;
+  padding: 15px;
+  position: absolute;
+  bottom: 20px;
+  text-align: justify;
+  border: 1px solid #eee;
+  background-color: #fff;
+}
+
+.b-terms-accept > a {
+  text-decoration: underline;
+}
+
+.form_submitted {
+  display: none;
+
+  height: 120%;
+  width: 120%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.submitted_txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ajax-loader {
+  @include full-abs();
+  margin: auto !important;
+}
+.form_file-inp_placeholder {
+  display: none;
+}
+.form_submitted {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  @include dflex(center, wrap, center);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+
+  .submitted_txt {
+    width: rem(320);
+    background: $c-white;
+    border-radius: rem(15);
+    box-shadow: 2px 3px 6px rgba(255, 255, 255, 0.3);
+    padding: rem(20);
+    transform: translateY(-50px);
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.3s;
+
+    p {
+      color: $c-black;
+      font-family: 'Neue Montreal';
+      font-size: rem(18);
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: rem(24);
+    }
+  }
+}
+.b-terms-accept {
+  padding: rem(38) 0;
+  width: 100%;
+  text-align: center;
+  @include dflex(center, wrap, center);
+  color: $c-black;
+  font-family: 'Neue Montreal';
+  font-size: rem(12);
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: rem(24);
+  text-align: justify;
+  a {
+    color: $c-black;
+    margin: 0 rem(5);
+    text-decoration: underline;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@include mmax(1260) {
+  .praca {
+    &__container,
+    &__details-list-container {
+      padding: 0 rem(18);
+    }
+
+    &__header {
+      padding-left: rem(18);
+      padding-right: rem(18);
+    }
+
+    .wpcf7-form .wpcf7-form-control-wrap input {
+      padding-left: rem(18);
+    }
+  }
+}
+
+@include mmax(836) {
+  .praca__details {
+    top: 47px;
+    height: calc(100vh - 47px);
+  }
+
+  .praca__details-header {
+    height: 47px;
+  }
+
+  .praca__details-subheader .praca__offer-description {
+    margin-top: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .praca__details-subheader .praca__name {
+    padding-left: 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .praca__details-list-box {
+    height: auto;
+    padding: rem(27) rem(18);
+    flex-basis: 100%;
+    width: 100%;
+    border-right: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    &:last-child {
+      padding: rem(27) rem(18);
+      flex-basis: 100%;
+      width: 100%;
+      border-right: none;
+      border-bottom: none;
+    }
+  }
+
+  .praca__details-subheader {
+    padding: rem(27) 0;
+
+    .praca__name {
+      order: 1;
+      width: 100%;
+      flex-basis: 100%;
+      padding: 0 rem(18);
+    }
+
+    .praca__container {
+      padding: 0 rem(18);
+    }
+
+    .praca__offer-txt {
+      order: 2;
+      margin-top: rem(3);
+      padding: 0 rem(18);
+    }
+
+    .praca__offer-description {
+      order: 3;
+      width: 100%;
+      flex-basis: 100%;
+      margin-top: rem(20);
+      padding: 0 rem(18);
+    }
+  }
+
+  .praca__container {
+    padding: 0 rem(18);
+  }
+
+  .praca__header {
+    padding: rem(27) 0;
+  }
+
+  .praca__details-list-container {
+    padding: 0;
+  }
+
+  .praca .wpcf7-form .wpcf7-form-control-wrap input,
+  .form_file-inp {
+    padding: rem(27) rem(18) !important;
+  }
+
+  .praca .wpcf7-form .wpcf7-form-control-wrap:nth-child(2) input,
+  .praca .wpcf7-form .wpcf7-form-control-wrap:nth-child(5) input,
+  .praca .wpcf7-form .wpcf7-form-control-wrap:nth-child(8) input {
+    padding: rem(27) rem(18);
+  }
+
+  .praca__offer-description {
+    width: 100%;
+    margin-top: 0;
+    width: 100%;
+    padding: 0 rem(18);
+  }
+
+  .praca__offer-description {
+    margin-top: rem(20);
+    padding: 0 !important;
+  }
+
+
+  .file-fake-inp-1 {
+    padding-left: rem(18);
+  }
+
+  .praca {
+    &__name {
+      flex: 1;
+      text-align: left !important;
+      padding-left: rem(18);
+    }
+
+    &__container {
+      padding-right: rem(32);
+
+      > p {
+        font-size: rem(22);
+      }
+    }
+
+    .form_unit {
+      padding-left: rem(18);
+      padding-right: rem(32);
+    }
+
+
+    &__details {
+      &-subheader {
+        .praca__offer-description {
+          padding-left: rem(18) !important;
+          padding-right: rem(18) !important;
+        }
+      }
+
+      .b-terms-accept {
+        padding-left: rem(18);
+        padding-right: rem(0);
+        justify-content: flex-start;
+      }
+    }
+  }
+
+
+}
+
+@include mmax(628) {
+  .praca .wpcf7-form .wpcf7-form-control-wrap,
+  .praca .load__container .form_file-inp {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .praca .load__container .form_file-inp {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .b-terms-accept {
+    padding: rem(24) rem(18);
+  }
+}

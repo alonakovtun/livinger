@@ -1,0 +1,28 @@
+// Fonts
+$f-main: 'Neue Montreal';
+
+// Font sizes
+$fz-root: 14;
+
+// Colors
+$c-white: #fff;
+$c-black: #000;
+$c-blue: #3880c0;
+
+$wrap: calc(1250px + 30px);
+
+$wrap-content: calc(1295px + 30px);
+
+$xs: 420;
+$phone: 576;
+$pad: 768;
+$laptop: 850;
+$xl: 1024;
+
+// Time
+$time-fast: 300ms;
+
+// Timing functions
+$timing-functions: (
+  'easeInOutCubic': cubic-bezier(0.645, 0.045, 0.355, 1),
+);

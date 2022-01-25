@@ -1,0 +1,82 @@
+.egofilm-box {
+  height: 394px;
+  @include dflex(center, wrap, center);
+
+  &__container {
+    @include container($wrap);
+  }
+
+  &__logo {
+    width: 100%;
+  }
+}
+
+.egofilm-logo.is-active {
+  position: fixed;
+  top: rem(123);
+  left: 0;
+  right: 0;
+  @include container($wrap);
+}
+
+.subtitle {
+  display: block;
+  margin: 0 0 rem(41);
+  padding-top: rem(42);
+  color: $c-black;
+  font-family: 'Neue Montreal';
+  font-size: rem(93);
+  line-height: 5rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding-right: 20px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+@include mmax(1600) {
+  .egofilm-box {
+    height: 22rem;
+  }
+  .egofilm-logo {
+    padding: 0 rem(18);
+  }
+}
+
+@include mmax(1248) {
+  .egofilm-logo {
+    font-size: rem(200);
+  }
+
+  .subtitle {
+    font-size: rem(72);
+  }
+}
+
+@include mmax(852) {
+  .egofilm-logo {
+    font-size: rem(69);
+    line-height: rem(69);
+    margin: rem(0) 0;
+    top: rem(27);
+  }
+
+  .egofilm-logo.is-active {
+    top: rem(74);
+  }
+
+  .egofilm-box {
+    height: 8.3rem;
+  }
+
+  .subtitle {
+    font-size: rem(34);
+    line-height: rem(34);
+    margin: rem(26) 0;
+    display: block;
+    margin-top: 0;
+    padding-top: rem(26);
+  }
+}

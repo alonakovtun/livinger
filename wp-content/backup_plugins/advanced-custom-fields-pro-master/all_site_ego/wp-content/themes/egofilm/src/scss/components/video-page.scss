@@ -1,0 +1,171 @@
+.video-start-page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  transition: height 1s ease;
+  z-index: 9;
+
+  &__stub {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+  }
+
+  &__controller {
+    @include dflex(center, wrap, flex-end);
+
+    a {
+      margin-right: rem(50);
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__header {
+    position: relative;
+    // @include container($wrap);
+    padding: 0 rem(90);
+    height: rem(104);
+    @include dflex(center, wrap, space-between);
+    z-index: 9999999;
+  }
+
+  &__close {
+    position: relative;
+    text-decoration: none;
+    color: $c-white;
+    font-family: 'Neue Montreal';
+    font-size: rem(14);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &::before {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: rem(-2);
+      width: 0%;
+      height: rem(1);
+      background: $c-white;
+      transition: width 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &::before {
+        width: 100%;
+        left: 0;
+        right: auto;
+      }
+    }
+  }
+
+  .video-start-page__mute.is-active {
+    &::before {
+      width: 100%;
+      left: 0;
+      right: auto;
+    }
+  }
+
+  &__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    .wp-video,
+    .wp-playlist {
+      width: 100% !important;
+      height: 100%;
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .mejs-container {
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    video {
+      @include full-abs();
+      margin: auto;
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover;
+      object-position: center center;
+    }
+    .video-banner__mobile {
+      display: none;
+    }
+  }
+}
+
+.video-start {
+  z-index: 9999999999;
+}
+
+@media (min-width: 1600px) {
+  .video-start-page__header {
+    padding: 0 100px;
+  }
+
+  .about-project-item__description-txt {
+    padding-left: 100px !important;
+  }
+}
+
+@include mmax($pad) {
+  .video-start-page {
+    &::before {
+      display: none;
+    }
+  }
+
+  .video-start-page__video .header__video-bunner {
+    display: none;
+  }
+
+  .video-banner__mobile {
+    display: block !important;
+  }
+
+  .header__controller {
+    width: 100%;
+    position: absolute;
+    bottom: rem(88);
+    text-align: center;
+
+    .video-start-page__close {
+      min-width: 100%;
+      display: block;
+      text-align: center;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .video-start-page__mute {
+      display: none;
+    }
+  }
+}

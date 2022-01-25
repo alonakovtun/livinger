@@ -1,0 +1,55 @@
+{
+  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Hi. I'm a starter theme called _s, or underscores, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.",
+  "author": "Automattic Theme Team",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "rtlcssConfig": {
+    "options": {
+      "autoRename": false,
+      "autoRenameStrict": false,
+      "blacklist": {},
+      "clean": true,
+      "greedy": false,
+      "processUrls": false,
+      "stringMap": []
+    },
+    "plugins": [],
+    "map": false
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^12.1.0",
+    "browser-sync": "^2.26.14",
+    "browser-sync-webpack-plugin": "2.2.2",
+    "dir-archiver": "^1.1.1",
+    "laravel-mix": "^6.0.18",
+    "postcss": "^8.2.12",
+    "postcss-css-variables": "^0.17.0",
+    "postcss-nested": "^5.0.3",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.11",
+    "sass-loader": "8.*"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jquery": "^3.6.0",
+    "normalize.css": "^8.0.1",
+    "wow.js": "^1.2.2"
+  }
+}

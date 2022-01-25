@@ -1,0 +1,21 @@
+.information {
+  position: relative;
+
+  &__container {
+    @include container(rem(1753));
+    padding: rem(65) rem(20) rem(130);
+  }
+
+  &__title {
+    margin-bottom: rem(50);
+  }
+}
+
+
+@include mmax ($pad){
+  .information {
+    &__container {
+      padding: 0 rem(27);
+    }
+  }
+}

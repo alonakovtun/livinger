@@ -1,0 +1,30 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "browser-sync-webpack-plugin": "2.2.2",
+    "laravel-mix": "^6.0.11",
+    "postcss": "^8.1",
+    "postcss-css-variables": "^0.17.0",
+    "postcss-nested": "^5.0.3",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.8",
+    "sass-loader": "8.*"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "normalize.css": "^8.0.1"
+  }
+}

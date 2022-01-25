@@ -1,0 +1,27 @@
+.crumbs {
+  @include dflex(center, wrap, flex-start);
+
+  .woocommerce-breadcrumb {
+    color: $c-black !important;
+    font-family: 'Matter SQ';
+    font-size: rem(18);
+    font-weight: 300;
+    line-height: rem(36);
+    text-align: left;
+    text-decoration: none;
+  }
+
+  a {
+    color: $c-black !important;
+    font-family: 'Matter SQ';
+    font-size: rem(18);
+    font-weight: 300;
+    line-height: rem(36);
+    text-align: left;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

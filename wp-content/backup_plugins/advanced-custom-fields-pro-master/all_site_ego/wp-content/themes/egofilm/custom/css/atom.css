@@ -1,0 +1,110 @@
+.a--hd-1,
+.a--hd-2,
+.a--hd-3 {
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.a--hd-1 {
+	font: 750 32px "TTNorms" !important;
+}
+
+.a--hd-2 {
+	font: 750 24px "TTNorms";
+}
+
+.a--hd-3,
+.a--hd-3 a {
+	font: 750 15px "TTNorms";
+}
+
+.a--txt strong,
+.a--txt-nrrw strong {
+	font-weight: 750;
+}
+
+.a--txt {
+	font: 500 14px "TTNorms";
+}
+
+.a--txt-md {
+	font: 500 16px "TTNorms";
+}
+
+.a--txt-upc,
+.a--txt-upc-in * {
+	text-transform: uppercase;
+}
+
+.a--txt-lft {
+	text-align: left;
+}
+
+.a--txt-rght {
+	text-align: right;
+}
+
+.a--txt-jstf,
+.a--txt-jstf > p {
+	text-align: justify;
+	text-align-last: center;
+}
+
+.a--txt-nrrw {
+	margin: 75px 0 75px;
+	font: 500 16px/24px "TTNorms";
+	/*text-transform: uppercase;*/
+}
+
+.a--txt-nrrw * {
+	font: 500 16px/24px "TTNorms";
+	/*text-transform: uppercase;*/
+}
+
+.a--btn,
+.a--btn-bld {
+	text-transform: uppercase;
+}
+
+.a--btn {
+	font: 500 12px "TTNorms";
+}
+
+.a--btn:hover {
+	color: #000;
+}
+
+.a--btn-bld,
+.a--btn-bld-in * {
+	color: #000;
+	font: 750 16px "TTNorms";
+	outline: none;
+}
+
+.a--mb-lg {
+	margin-bottom: 75px;
+}
+
+.a--flx-row,
+.a--flx-row-btv,
+.a--flx-row-ctr {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+
+.a--flx-row-btv {
+	justify-content: space-between;
+}
+
+.a--flx-row-ctr {
+	justify-content: center;
+}

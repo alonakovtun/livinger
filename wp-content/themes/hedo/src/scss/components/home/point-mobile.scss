@@ -1,0 +1,38 @@
+.point-mobile {
+  display: none;
+}
+
+@include mmax ($pad){
+  .point-mobile {
+    display: block;
+    margin-bottom: -4.4375rem;
+    margin-top: rem(75);
+
+    .footer__point {
+      display: block;
+    }
+
+    .footer__point-item {
+      flex-basis: 53%;
+      width: 53%;
+      display: block !important;
+      margin: 0 auto rem(60);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .footer__point-icon {
+      margin-right: 0;
+      margin: 0 auto rem(15);
+      width: rem(30);
+    }
+
+    .footer__point-txt {
+      font-size: rem(14);
+      line-height: rem(17);
+      text-align: center;
+    }
+  }
+}

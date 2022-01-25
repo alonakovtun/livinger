@@ -1,0 +1,389 @@
+.about-project-item {
+  position: fixed;
+  top: 160%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: $c-white;
+  z-index: 999999;
+  visibility: hidden;
+  opacity: 1;
+  transition: 0.6s ease-in-out;
+
+  &__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    video {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+
+  .mejs-mediaelement {
+    video {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+
+  .wp-playlist {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+    height: 100%;
+    border: none;
+
+    span {
+      display: none;
+    }
+  }
+
+  .mejs-controls {
+    display: none;
+  }
+
+  .mejs-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  &__info {
+    position: absolute;
+    top: calc(100% - 94px);
+    // top: rem(87);
+    overflow-y: overlay;
+    width: 100%;
+    background-color: $c-white;
+    z-index: 9;
+    transition: 0.5s ease-in-out;
+  }
+
+  &__info.is-active {
+    top: rem(87);
+    height: calc(100vh - 87px);
+    overflow-y: overlay;
+  }
+
+  &__header {
+    height: rem(94);
+    padding: 0 rem(0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    .flex-box {
+      @include dflex(center, wrap, flex-start);
+    }
+  }
+
+  &__container {
+    position: relative;
+    // @include container($wrap);
+    padding: 0 rem(87);
+    height: 100%;
+
+    > .flex {
+      flex: 1;
+      width: 100%;
+    }
+  }
+
+  &__name {
+    display: block;
+    max-width: 50%;
+    color: $c-black;
+    font-family: 'Neue Montreal';
+    font-size: rem(28);
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: rem(47);
+    margin-bottom: 0;
+  }
+
+  &_margin {
+    margin-right: rem(48);
+  }
+
+  &__close-info {
+    position: absolute;
+    right: rem(87);
+    cursor: pointer;
+    width: auto;
+    text-align: right;
+    z-index: 9;
+
+    &::before {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: rem(-2);
+      width: 0%;
+      height: rem(1.5);
+      background: $c-black;
+      transition: width 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &::before {
+        width: 100%;
+        left: 0;
+        right: auto;
+      }
+    }
+  }
+
+  &__description {
+    &-txt,
+    &-info {
+      padding: rem(41) rem(85) rem(39) rem(85);
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    &-info {
+      p {
+        color: $c-black;
+        font-family: 'Neue Montreal';
+        font-size: rem(14);
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: rem(22);
+        text-align: left;
+
+        strong {
+          font-weight: 700;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: normal;
+        }
+
+        &:last-child {
+          margin-top: rem(18);
+        }
+      }
+    }
+  }
+
+  &__gallery {
+    .gallery_unit {
+      flex-basis: 50% !important;
+      width: 50% !important;
+      border: none !important;
+      height: rem(371) !important;
+
+      .unit_img-wrap {
+        height: 100% !important;
+
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+
+          .unit_img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-template-page-index {
+  .product {
+    .about-project-item {
+      .gallery_unit {
+        flex-basis: 50% !important;
+        width: 50% !important;
+        border: none !important;
+        height: rem(371) !important;
+
+        .unit_img-wrap {
+          height: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+.about-project-item.is-active {
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 1550px) {
+  .about-project-item__container {
+    padding: 0 rem(18);
+  }
+
+  .about-project-item__close-info {
+    right: rem(18);
+  }
+}
+
+@include mmax($xl) {
+  .about-project-item {
+    &__description-txt,
+    &__description-info {
+      padding: rem(30);
+    }
+  }
+}
+
+@include mmax($pad) {
+  .about-project-item {
+    overflow: auto;
+    height: calc(100vh - 47px);
+
+    .txt-defualt {
+      font-weight: 300;
+    }
+
+    .video-start-page {
+      height: auto;
+    }
+
+    .video-start-page__header {
+      height: rem(48);
+      padding: 0 rem(18);
+
+      .video-start-page__close {
+        color: $c-black;
+        font-size: rem(14);
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: rem(14);
+      }
+
+      .video-start-page__controller {
+        .pause-li,
+        .muted-li,
+        .fullscreen-li {
+          display: none;
+        }
+      }
+    }
+
+    .video-start-page__video {
+      position: relative;
+      top: auto;
+      left: auto;
+      right: auto;
+      bottom: auto;
+      width: 100%;
+      height: 180px;
+
+      img {
+        position: relative;
+
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    &__header {
+      @include dflex(center, wrap, space-between);
+      padding: 0;
+    }
+
+    .about-project-item__info {
+      position: relative;
+      top: auto;
+      left: auto;
+
+      .info {
+        display: none;
+      }
+    }
+
+    &__container {
+      width: 100%;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      height: auto;
+      padding: 0 rem(18);
+    }
+
+    &__name {
+      display: block;
+      flex-basis: 100%;
+      width: 100%;
+      max-width: 100%;
+      color: $c-black;
+      font-family: 'Neue Montreal';
+      font-size: rem(14);
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-align: left;
+      text-transform: uppercase;
+      margin-right: 0;
+    }
+
+    &_margin {
+      margin-right: 5px;
+    }
+
+    &__description-txt,
+    &__description-info {
+      width: 100%;
+      flex-basis: 100%;
+      border-right: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      padding: rem(27) rem(18);
+    }
+
+    &__description-txt {
+      font-size: rem(20);
+      font-weight: 400;
+    }
+  }
+
+  .about-project-item.is-active {
+    top: 47px;
+  }
+
+  .page-template-page-index .product .about-project-item .gallery_unit {
+    width: 100% !important;
+    flex-basis: 100% !important;
+    height: rem(174) !important;
+  }
+
+  .page-template-page-index .product .gallery_unit,
+  .page-template-page-index
+    .product
+    .gallery_unit
+    .gallery__container
+    .unit-info {
+    border-bottom: none !important;
+  }
+
+  .about-project-item__gallery .gallery_unit {
+    width: 100% !important;
+    flex-basis: 100% !important;
+  }
+}
+
+@include mmax($phone) {
+  .about-project-item {
+    &__name {
+      max-width: 100%;
+      width: 100%;
+      flex-basis: 100%;
+      padding-right: rem(10);
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+}

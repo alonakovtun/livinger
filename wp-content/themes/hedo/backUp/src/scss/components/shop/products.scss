@@ -1,0 +1,48 @@
+.products {
+  position: relative;
+  @include dflex(center, wrap, space-between);
+  padding: 0 rem(14);
+
+  &__jc-start {
+    justify-content: flex-start;
+  }
+
+  &__100wv {
+    width: 100%;
+  }
+
+  .slider-product {
+    min-width: 32.3333333333%;
+    margin-bottom: rem(27);
+    margin-right: rem(27);
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+}
+
+@include mmax (1828){
+  .products .slider-product {
+    min-width: 31.33333%;
+  }
+}
+
+@include mmax (1600){
+  .products .slider-product {
+    min-width: 32.3333333%;
+  }
+}
+@include mmax (1370){
+  .products .slider-product {
+    min-width: 32%;
+  }
+}
+
+
+@include mmax (1033){
+  .products .slider-product {
+    min-width: 31.6%;
+    height: rem(600);
+  }
+}

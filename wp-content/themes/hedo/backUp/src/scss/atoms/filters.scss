@@ -1,0 +1,195 @@
+.filters {
+  position: relative;
+  padding: rem(45) 0 rem(45);
+
+  &__container {
+    padding:0 rem(20);
+  }
+
+  .wcapf-price-filter-wrapper,
+  .wcapf-dropdown-nav,
+  .wcapf-layered-nav,
+  .tagcloud {
+    display: block;
+    position: absolute;
+    top: rem(67);
+    left: rem(-55);
+    margin: auto;
+    width: rem(300);
+    padding: rem(45) rem(30);
+    background-color: $c-grey;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10%);
+    transition: all .3s ease-in-out;
+
+    ul {
+      list-style: none;
+      margin-left: 0;
+
+      li {
+        position: relative;
+        @include dflex(center, wrap, flex-start);
+        margin-bottom: rem(45) !important;
+
+        &::before {
+          content: '';
+          width: rem(17);
+          height: rem(17);
+          border: 1px solid #c3a64d;
+          border-radius: 50%;
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+
+        &::after {
+          content: '';
+          width: rem(18);
+          height: rem(18);
+          background-color: #11432e;
+          border-radius: 50%;
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          transform: scale(0.5) translateX(1px) translateY(-1px);
+          display: none;
+        }
+
+        a {
+          color: #c3a64d;
+          font-family: "Matter SQ";
+          font-size: rem(19);
+          line-height: rem(19);
+          font-weight: 300;
+          letter-spacing: rem(0.26);
+          text-decoration: none;
+          padding-left: rem(56);
+
+          svg {
+            display: none;
+          }
+        }
+
+        &:last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+
+      li.chosen {
+
+        &::before {
+          content: '' !important;
+        }
+
+         &::after {
+          display: block;
+        }
+      }
+    }
+  }
+
+  &__element {
+    position: relative;
+    margin-right: rem(80);
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+
+
+  &__head {
+    cursor: pointer;
+
+
+    p {
+      color: #c3a64d;
+      font-family: "Matter SQ";
+      font-size: rem(18);
+      font-weight: 300;
+      letter-spacing: rem(0.43);
+
+      &:hover {
+        text-decoration: underline;
+
+      }
+
+      span {
+        transition: opacity 0.3s ease-in-out;
+      }
+    }
+  }
+
+  &__element._active {
+    .filters__head {
+      p {
+        text-decoration: underline;
+
+        span {
+          opacity: 0;
+        }
+      }
+    }
+
+    .wcapf-price-filter-wrapper,
+    .wcapf-dropdown-nav,
+    .wcapf-layered-nav,
+    .tagcloud {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+
+  &__total-product{
+    position: absolute;
+    height: rem(22);
+    right: rem(90);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .noUi-target {
+    @include full-reset();
+    height: 2px !important;
+    background: $c-gold !important;
+    border: 0 !important;
+    box-shadow: none !important;
+
+  }
+
+  .noUi-horizontal.noUi-extended .noUi-handle {
+    &::before,
+    &::after {
+      display: none;
+    }
+
+    width: rem(20) !important;
+    height: rem(20) !important;
+    border-radius: 50% !important;
+    background: $c-gold !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+  }
+
+  .slider-values  {
+    @include dflex(center, wrap, space-between);
+  }
+
+  .wcapf-price-filter-wrapper .slider-values p {
+    span {
+      font-size: rem(18);
+      color: $c-gold;
+      text-transform: uppercase;
+    }
+  }
+}
